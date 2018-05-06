@@ -19,6 +19,12 @@ tags = Array.new
 
 vLast = csvClients.length - 1
 
+nFname = 19
+nLname = 18
+nEmail = 14
+nCompany = 1
+nAccepts_marketing = 15
+
 csvClients.each_with_index do |row, i|
     nFname = 19
     nLname = 18
@@ -62,20 +68,20 @@ fname.each_with_index do |name, i|
 
 end
 CSV.open("customer_template.csv", "a+") do |csv|
-    fname.each_with_index do |name, i|
-        unless tags[i] == "" 
-            if email[i] == ""
-                csvClients.each_with_index do |row, j|
-                    if company[i] == row[1] && row[14] != ""
-                        email[i] == row[14]
-                    end
-                end
-            end
-            unless company[i] == "Corbis"
-                unless company[i] == "Getty Images"
-                    csv << [name, lname[i], email[i], company[i], "", "", "", "", "", "", "", "", "",accepts_marketing[i], "", "", tags[i], "", "no"]
-                end
-            end
-        end
+        # unless tags[i] == "" 
+        #     if email[i] == ""
+        #         csvClients.each_with_index do |row, j|
+        #             if company[i] == row[1] && row[14] != ""
+        #                 email[i] == row[14]
+        #             end
+        #         end
+        #     end
+        #     unless company[i] == "Corbis"
+        #         unless company[i] == "Getty Images"
+        #             csv << [name, lname[i], email[i], company[i], "", "", "", "", "", "", "", "", "",accepts_marketing[i], "", "", tags[i], "", "no"]
+        #         end
+        #     end
+        # end
+
     end
 end
