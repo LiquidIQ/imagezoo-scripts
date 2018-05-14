@@ -1,509 +1,496 @@
-Id,Company,Address1,Address2,City,State,PostCode,Country,Bus. Phone,Home Phone,Cell Phone,Fax,Email,TaxId,Comm,Cntct_Lst,Cntct_Fst,Cntct_Mid,First_Dt,Last_Dt,User 1,User 2,User 3,Fwd,Billed,Charges,Paid,Balance
-AAV,Amy Aves,55 Almenar Drive,,Greenbrae,CA,94904,USA,914-457-5031,,,,amy@aves-design.com,,25,Aves,Amy,,8/20/03,8/20/09,,,,0,0,0,0,0
-ABA,Ana Barateiro,"Rua Lino Antonio, Lote 2""",,Cruz d'Areia,Le,2410-055,Portugal,,,,,,,35,Barateiro,Ana,,10/19/05,10/19/09,,,,0,0,0,0,0
-ABE,Abemiki,5-2-2 Shimouma,,"Stagaya-ku, Tokyo""",,,Japan,,,,,,,50,Okamoto,Miki,,11/6/09,11/6/14,yoshi artist,,,0,0,0,0,0
-ABR,Allen Bradley,1652 County Road 139,,Mancos,CO,81328,USA,,,,,bgoodell@durango.net,,35,Goodell,Brad,,2/13/03,2/13/09,,,,0,0,0,0,0
-ABS,Anna Bours,Avda parallel 142,,Barcelona,,,Spain,,,,,,,40,Bours,Anna,,5/23/12,5/23/12,,,,0,0,0,0,0
-ACA,Adam Carruthers,118 Grieve Dpe,,Altona,VI,3018,Australia,,,,,adamcarruthers@mac.com,,40,Carruthers,Adam,,2/9/09,2/9/14,,,,0,0,0,0,0
-ACH,Aaron Chambers,"70 Sixth Avenue, Manor Park""",,London,,E12 5PR,UK,020 8514 1820,,,,aaron@blu-i.com,,35,Chambers,Aaron,,8/24/07,8/24/12,,,,0,0,0,0,0
-ACO,Seiichiro,"Alice Court buldg 1F, 1-33-15 Matsugaoka",,Tokyo,,,Japan,,,,,,,50,Nakamura,Seiichiro,,3/25/10,3/25/15,yoshi artist,,,0,0,0,0,0
-ACR,Anne Cresci,239 bis Rue Lafayette,,Paris,,75010,France,,,,,annecresci@wanadoo.fr,,35,Cresci,Anne,,4/23/07,4/23/12,,,,0,0,0,0,0
-ACS,Andrea Chronopoulos,via Cesare Pavese 356,144,Roma,,,Italy,,,,,a.chron@hotmail.com,,40,Chronopoulos,Andrea,,1/15/13,1/15/18,,,,0,0,0,0,0
-ADE,Ana Delia,El Parque 47,,Benavente,,49600,Spain,,,,,,,40,Delia,Ana,,5/10/12,5/10/12,,,,0,0,0,0,0
-AFE,Angela Fernihough,Studio Anjou,Clearbrook Cottage,Midford,BA,BA27DE,UK,,,,,,,40,Fernihough,Angela,,2/28/12,2/28/17,,,,0,0,0,0,0
-AFO,All Fiction,1-16-4 Kiyomi-dao,Kawachi-nagano-shi,Osaka Pref,,,Japan,,,,,,,50,Kanamoto,Mariko,,8/30/10,8/30/15,yoshi artist,,,0,0,0,0,0
-AGI,Adam Gillespie,23 Laurel Crescent,,London,ON,N6H 4W6,Canada,,,,,beatkidsgallery@gmail.com,,40,Gillespie,Adam,,3/17/11,3/17/16,,,,0,0,0,0,0
-AGO,Ania Goszczynska,Sweitokrzyska 30/83,,Warsaw,,00-116,Poland,,,,,ago1@o2.pl,,35,Goszczynska,Ania,,10/14/05,10/14/09,,,,0,0,0,0,0
-AHA,Akemi Hara,Heim Shinsaku 503 1172-1 Shinsaku,,"Matsudo-shi, Chiba P",,,Japan,,,,,,,50,Hara,Akemi,,12/16/09,12/16/14,yoshi artist,,,0,0,0,0,0
-AKH,Aki Horiuchi,"250-1 Chihara, Sakurai-shi """,,Nara Pref,,,Japan,,,,,,,50,Horiuchi,Aki,,12/9/09,12/9/14,yoshi artist,,,0,0,0,0,0
-AKI,Ann Kiernan,Airfield Lodge,Rathkenny,Navan Co.,,MEATH,Ireland,,,,,,,40,Kiernan,Ann,,8/5/14,8/5/14,,,,0,0,0,0,0
-AKR,Anastasya Krasnova,"ul. Krisanova, 19-46""",,Perm,,614068,Russia,,,,,krasnof@bk.ru,,35,Krasnova,Anastasya,,1/28/04,1/28/09,,,,0,0,0,0,0
-ALB,Alins and Barco Studio,Alcalde AReny,"1,4 7-B",Lleida,,25002,Spain,,,,,alins@alinsilustracion.com,,40,Studio,Alins and Barco,,10/12/15,10/12/20,,,,0,0,0,0,0
-ALC,Alessandra Chiarlo,Via XXIV Maggio 8/4,,Genova,,16153,Italy,,,,,alessandra@alessandrachia,,35,Chiarlo,Alessandra,,6/11/08,6/11/13,,,,0,0,0,0,0
-ALY,Andrew Lynne,307 S. James St.,,Arlington,VA,23005,U.S.A.,,,,,,,40,Lynne,Andrew,,10/3/13,10/3/13,,,,0,0,0,0,0
-AMA,Antonietta Marrocchella,,,199 Via Varesina,Mi,,Italy,,,,,antonietta.marrocchell@fa,,35,Marrocchella,Antonietta,,6/2/05,6/2/09,,,,0,0,0,0,0
-AME,Annabelle Metayer,2276 Old Richard Avenue,,Montreal,QC,H4A 3A8,Canada,,,,,,,40,Metayer,Annabelle,,10/12/12,10/12/17,,,,0,0,0,0,0
-AMI,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-AMS,Andreas Maschke,Rosenweg 14,,23883 Grambek,,,Germany,,,,,,,40,Maschke,Andreas,,7/3/12,7/3/17,,,,0,0,0,0,0
-AMU,Amy Mullen,701 North Edgewood Street,,Arlington,VA,22201,U.S.A.,,,,,amye.mullen@gmail.com,,40,Mullen,Amy,,11/7/14,11/7/19,,,,0,0,0,0,0
-ANA,Aya Naito,Brown Heights 401 4-21-1 IkebukuroToshim,,Tokyo,,,Japan,,,,,,,50,Naito,Aya,,11/4/09,11/4/14,yoshi artist,,,0,0,0,0,0
-ANE,Aneu Martinez,c/Olzinelles 22 3 2,,Barcelona,,,Spain,,,,,,,50,Martinez,Aneu,,6/4/12,6/4/12,,,,0,0,0,0,0
-ANM,Ana Maria Angel,Richardstrasse 19,12043,Berlin,,12043,Germany,4.91748E+11,,,,,,40,Angel,Ana Maria,,2/21/12,2/21/17,,,,0,0,0,0,0
-ANO,Annika Nordenskiold,"Edsviksvagen 27, 191 45 Sollentuna""",,Stockholm,,,Sweden,,,,,annika@tobbe.com,,35,Nordenskiold,Annika,,7/1/04,7/1/09,,,,0,0,0,0,0
-APA,Aloysius Patrimonio,15b Kimber Hall Avenue,,Mt. Roskill,,AUCKLAND,New Zealand,,,,,,,40,Patrimonio,Aloysius,,7/14/11,7/14/16,,,,0,0,0,0,0
-APL,Andrew Plewes,331 Josephine Drive,,Bowen Island,BC,V0N 1G0,Canada,604-947-9391,,,,andrewplewes@telus.net,,50,Plewes,Andrew,,8/30/06,8/30/09,,,,0,0,0,0,0
-AQU,AQUE,"#618, Horie-Jyutaku #8 bldg., 3-16,",Minami-kasai,Edogawa-ku,,TOKYO,Japan,,,,,,,50,Koyama,Megumi,,1/27/11,1/27/11,yoshi,,,0,0,0,0,0
-ARA,Anne Rasilainen,Pasuunatie 00420,,Helsinki,2B,,FINLAND,,,,,,,0,Rasilainen,Anne,,4/10/12,4/10/17,,,,0,0,0,0,0
-ARO,Alan Rogerson,138 Campkin Road,,Cambridge,,CB42ND,UK,,,,,,,40,Rogerson,Alan,,8/21/12,8/21/17,,,,0,0,0,0,0
-ART,Artisticco,2507 155th St. SW,,Lynnwood,WA,98087,U.S.A.,,,,,,,40,Suharjojo,Suprijono,,3/7/12,3/7/12,,,,0,0,0,0,0
-ATA,Aiko Tanaka,"Sanden ouse, 1B, 1-12-7, Hazawa, Nerima-",,Tokyo,,,Japan,,,,,,,50,Tanaka,Aiko,,10/15/09,10/15/14,yoshi artist,,,0,0,0,0,0
-ATS,Ayako Tsuge,"Sun Park, Higashi, okoshi 203 5-43, Higa",,Aichi Pref,,,Japan,,,,,,,50,Tsuge,Ayako,,10/19/09,10/19/14,yoshi artist,,,0,0,0,0,0
-AUR,Aurinco,301 Mason De Tact,"Nakano 4-17-1, Nakano-ku",Tokyo,,,Japan,,,,,,,50,Yamashita,Kumiko,,11/24/10,11/24/15,,,,0,0,0,0,0
-AWE,Anja Weiss,ul.Kzisnova 1946,,,,,Germany,05130-375415,,,,anja.weiss@afkom.de,,35,Weiss,Anja,,2/22/04,2/22/09,,,,0,0,0,0,0
-AWI,Annie Wilkinson,644 Woodland Drive,,Vancouver,BC,,Canada,,,,,annie@anniewilkinson.com,,40,Wilkinson,Annie,,8/18/08,8/18/13,,,,0,0,0,0,0
-AYA,Aya Yamene,830/ 4-3-1 Yashiki,,Chiba Pref,,,Japan,,,,,,,50,Yamene,Aya,,4/26/10,4/26/15,yoshi artist,,,0,0,0,0,0
-BBL,Bethel Blakesley,921 130th Street SW #B202,,Everett,WA,98204,U.S.A.,,,,,,,40,Blakesley,Bethel,,5/9/12,5/9/17,,,,0,0,0,0,0
-BCA,Berene Campbell,340 E. Carisbrooke Road,,North Vancouver,BC,V7N1N3,Canada,604-990-5271,,,,berene@telus.net,,40,Campbell,Berene,,11/26/08,11/26/13,,,,0,0,0,0,0
-BCO,Bernardo Codesido,Lugar de Frions n7B,,Riveira A Coruna,,GALIZIA,SPAIN,+34 678 397 311,,,+44 07455 808841,bernardopazcodesido@gmail.com,,40,Codesido,Bernardo,,8/14/13,8/14/18,,,,0,0,0,0,0
-BCR,Bea Crespo,"C/ Ciudad Real, 10 3A",,28045,,MADRID,Spain,(+34)676794535,,,,hola@beacrespo.es,,40,Crespo,Bea,,9/28/11,9/28/16,,,,0,0,0,0,0
-BED,Bambi Edlund,1440 Gilmore Avenue,,Burnaby,BC,V5C 4T1,Canada,,,,,yes@bambi-really.com,,40,Edlund,Bambi,,8/19/12,8/19/17,cheque,,,0,0,0,0,0
-BET,Betty,ImageZoo,,,,,,,,,,,,35,,Betty,,5/18/10,5/18/10,,,,0,0,0,0,0
-BFA,Beatrice Favereau,"4819, Dornal""",,Montreal,QC,H3W 1V9,Canada,(514) 825-1108,,,,bfavereau@gmail.com,,25,Favereau,Beatrice,,4/12/05,4/12/09,,,,0,0,0,0,0
-BGO,Blanca Gomez,"C,c/ Morejon 8""",,Madrid,3o,28010,Spain,(3469) 610-2096,,,,info@cosasminimas.com,,50,Gomez,Blanca,,2/9/09,2/9/14,,,,0,0,0,0,0
-BNP,BNP Design Studio,K18 Diversion Road,Brgy Ilayang Dupay,Lucena City,43,,Philippines,063-42-716-2442,,,,lenm@bnpdesignstudio.com,,40,Lorelyn,Medina,,8/24/12,8/24/17,paypal,,,0,0,0,0,0
-BON,Bon Bon,ImageZoo,,,,,,,,,,,,35,Bon,Bon,,5/18/10,5/18/10,,,,0,0,0,0,0
-BSC,Ben Schlitter,"1442 Stanford St, Apt F""",,Santa Monica,CA,90404,USA,310-804-8751,,,,studio@benschlitter.com,,40,Schlitter,Ben,,11/10/08,11/10/13,,,,0,0,0,0,0
-BSE,B.F. Secuya,811 York St.,,Oakland,CA,94610,USA,,,,,admin@maolidesign.com,,35,Secuya,Baine,,2/11/04,2/11/09,,,,0,0,0,0,0
-BSK,Budi Satria Kwan,Jalan Bandang No. 173,,Makassar,90,,Indonesia,,,,,first.plan@yahoo.com,,40,Sutria Kwan,Budi,,2/7/12,2/7/17,paypal,budi_kwan@yahoo.com,,0,0,0,0,0
-BST,Blinkstock,"3905 State Street, Suite #7-510""",,Santa Barbara,CA,93105,USA,,,,,,,35,,,,10/4/04,5/18/10,,,,0,0,0,0,0
-BTR,Beatriz Trello,"Calle Ciro, 23",Las Rozas de Madrid,Madrid,,28230,Spain,34637029167,,,,beatriz.trello@gmail.com,,40,Trello de la Fuente,Beatriz,,8/23/12,8/23/17,,,,0,0,0,0,0
-BUB,Butterscotch & Bean,72 Grange Street,,"St. Albans, Herts",,AL3 5LY,UK,7779283573,,,,sian@butterscotchandbean.co.uk,,50,O'Sullivan,Sian,,4/5/12,4/5/17,,,,0,0,0,0,0
-BUL,Bull's Eye,ImageZoo,,,,,,,,,,,,35,Eye,Bull's,,5/18/10,5/18/10,,,,0,0,0,0,0
-BWE,Brooke Weeber,133 NE 72nd Avenue,,Portland,OR,97213,U.S.A.,,,,,,,40,Weeber,Brooke,,2/21/12,2/21/17,,,,0,0,0,0,0
-BWO,Bruce Worthington,44 Hidden Point N.W.,,Calgary,AB,T3A 5P5,Canada,,,,,bruceworthington@smarttec,,40,Worthington,Bruce,,8/7/08,8/7/13,Birch,,,0,0,0,0,0
-BYA,Beth Yates,37 Fairhaven Green,,Bradford,,BD10 9QX,UK,,,,,beth.yates@live.com,,40,Yates,Beth,,8/16/12,8/16/17,,,,0,0,0,0,0
-CAR,Cargo,ImageZoo,,,,,,,,,,steph@imagezoo.com,,35,,Cargo,,5/18/10,5/18/10,,,,0,0,0,0,0
-CAS,Caroline Stirling,27/159 Union Street,,Brunswick West,Vi,3055,Australia,(61041) 913-9640,,,,contact@carolinestirling.,,40,Stirling,Caroline,,2/12/09,2/12/14,,,,0,0,0,0,0
-CAT,Caroline Attia,25 av Robert Andre VIVIEN,,Saint Mande,,94160,France,,,,,karoh94@yahoo.fr,,35,Attia,Caroline,,4/20/07,4/20/12,,,,0,0,0,0,0
-CAX,Charlotte Axworthy,1 Sillwood Terrace,,Brighton,,BN1 4EH,UK,,,,,,,40,Fleming,Charlotte,,8/24/12,8/24/17,,,,0,0,0,0,0
-CAY,Coharu Aya,654-13 Nekoya,Kasu-shi,Saitama Pref,,,Japan,,,,,,,50,Aya,Coharu,,9/13/10,9/13/15,yoshi artist,,,0,0,0,0,0
-CBL,,7826 Great Heron Way #301,,Naples,FL,34104,USA,813-475-5152,,,,thestudiowb@tampabay.rr.com,,35,Dempsey,Diane,,8/1/07,8/1/12,,,,0,0,0,0,0
-CBR,Caroline Breault,1454 Bennett Ave.,,Montreal,QC,H1V 2S6,Canada,,,,,doomcab@gmail.com,,40,Breault,Caroline,,11/4/08,11/4/13,,,,0,0,0,0,0
-CDA,Cori Dantini,1395 nw Canyon View Drive,,Pullman,WA,99163,USA,,,,,c_dantini@yahoo.com,,50,Dantini,Cori,,9/1/09,9/1/14,,,,0,0,0,0,0
-CFL,Catty Flores,"C/Acacias 24, 4_ A Izquierda""",,Salamanca,,37004,Spain,,,,,catty@ohgrafica.com,,35,Flores,Catty,,12/24/05,12/24/09,,,,0,0,0,0,0
-CFR,Claire Fraser,ImageZoo,,,,,,ImageZoo,,,,steph@stephaniecarter.com,,35,Fraser,Claire,,5/18/10,5/18/10,,,,0,0,0,0,0
-CGO,Carla Golembe,5320 Bolero Circle,,Delray Beach,FL,33484,USA,561-498-9185,,,,carlagolembe@gmail.com,,40,Golembe,Carla,,9/2/08,9/2/13,,,,0,0,0,0,0
-CHA,Cathie Hahnel,#308 - 4768 Brentwood Drive,,Burnaby,BC,V5C 0C7,Canada,604-298-7884,,,,cat@hahnelstudio.com,,40,Hahnel,Cathie,,8/8/08,8/8/13,Birch,new address 12/21/11,,0,0,0,0,0
-CHI,Chika Kurata,"P,3-5-10 Tsukiji""",,Chuo-ku,,Tokyo,Japan,,,,,,,50,Kurata,Chika,,2/16/10,2/16/15,yoshi artist,,,0,0,0,0,0
-CHO,Christa Howard,930 S. Flint Ridge Way,,Anamheim Hills,CA,92808,USA,714-281-2802,,,,christahoward@sbcglobal.n,,40,Howard,Christa,,12/12/08,12/12/13,,,,0,0,0,0,0
-CIR,Circa,ImageZoo,,,,,,ImageZoo,,,,,,35,,Circa,,5/18/10,5/18/10,,,,0,0,0,0,0
-CJA,Cachetejack,C/ Maestro Giner IG P 5,46900 Torrent,Valencia,,,Spain,34670561922,,,,,,40,Jack,Cachete,,6/11/12,6/11/17,,,,0,0,0,0,0
-CJM,CJ Metzger,604 S. Chevy Chase Drive,,Glendale,CA,91205,USA,,,,,cjmetzgerdesign@sbcglobal,,40,Metzger,Candace J,,6/12/09,6/12/14,,,,0,0,0,0,0
-CKO,Colleen Kong-Savage,201 West 77th St.,#2E,New York,NY,10024,U.S.A.,,,,,colleen@kongsavage.com,,40,Kong-Savage,Colleen,,3/22/16,3/22/16,,,,0,0,0,0,0
-CLA,Christian Lattuada,Via Drizza 55,20020,Solaro,,,Italy,,,,,chri.lattuada@gmail.com,,40,Lattuada,Christian,,10/13/11,10/13/16,,,,0,0,0,0,0
-CLE,Christopher Leigh,1 Glen EyreWay,,Southampton,,S016 3GD,UK,,,,,chris.leigh@no-cal.co.uk,,25,Leigh,Christopher,,10/10/05,10/10/09,,,,0,0,0,0,0
-CMA,Cat MacInnes,6 Moore Street,,Ferntree Gully,VI,,Australia,,,,,info@catmacinnes.com,,40,MacInnes,Cat,,7/27/08,7/27/13,,,,0,0,0,0,0
-CMR,Carol Marden,609 Compton Rd.,,Raleigh,NC,27609,U.S.A.,,919-781-3888,,,,,40,Marden,Carol,,3/29/12,3/29/17,,,,0,0,0,0,0
-CMU,Ciaran Murphy,51 Clerk Street,,Edinburgh,,EH8 9JQ,Scotland,,,,,,,50,Murphy,Ciaran,,9/20/12,9/20/17,,,,0,0,0,0,0
-CNO,Caroyln Nowak,1554 Plymouth Road,Apt. 14,Ann Arbor,MI,48105,U.S.A.,,,,,casey.nwk@gmail.com,,40,Nowak,Carolyn,,1/24/13,1/24/18,,,,0,0,0,0,0
-COF,Coco Flamingo,ImageZoo,,,,,,ImageZoo,,,,,,40,Flamingo,Coco,,5/18/10,5/18/10,,,,0,0,0,0,0
-COI,Chie Oishi,"8-B 1212 Aza-komori, Narumi-sho""",,Nagoya-shi,Ai,,Japan,,,,,,,50,Oishi,Chie,,6/15/10,6/15/15,yoshi artist,,,0,0,0,0,0
-COM,Compass,ImageZoo,,,,,,ImageZoo,,,,,,35,,Compass,,5/18/10,5/18/10,,,,0,0,0,0,0
-CON,Carrie O'Neill,411 Quince St. NE,,Olympia,WA,98506,USA,360-570-2177,,,,carrieoly@aol.com,,40,O'Neill,Carrie,,12/11/08,12/11/13,,,,0,0,0,0,0
-CPL,Cynthia Plaza,"C/Lucano 15, 5A""",,Madrid,,28022,Spain,,,,,cynthia@mi.madritel.es,,40,Plaza,Cynthia,,5/9/08,5/9/13,,,,0,0,0,0,0
-CSH,Chad J. Shaffer,34 Larry Drive,,Comack,NY,11725,USA,516-562-7443/631-871-4725,,,,chad@chadjshaffer.com,,50,Shaffer,Chad,,1/25/08,1/25/13,,,,0,0,0,0,0
-CTA,CHIKU,"201, 1-12-5, Matsunoki, Suginami-ku",,Tokyo,,,Japan,,,,,,,50,Tanemura,Chiaki,,1/21/10,1/21/15,yoshi artist,,,0,0,0,0,0
-CTS,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-CWA,Curt Walstead,"P,398 via Colinas""",,Westlake Village,CA,91362,USA,,,,,cwalstead@earthlink.net,,35,Walstead,Curt,,12/28/05,12/28/09,,,,0,0,0,0,0
-CWO,Christine Wong,6692 Sumas Drive,,Burnaby,BC,V5B 2V4,Canada,604-420-6818,,,,christine@carrotstick.ca,,35,Wong,Christine,,2/11/04,2/11/09,,,,0,0,0,0,0
-DAN,David Andrews,"49 Doric Avenue, Frodsham",,Cheshire,,WA6 7RB,UK,(+44) 07754905890,,,,reddaveandrews@yahoo.co.uk,,50,Andrews,David,,8/11/11,8/11/16,,,,0,0,0,0,0
-DBE,David Barneda,4334 Stern Avenue #18,,Sherman Oaks,CA,91423,USA,,,,,david@barneda.com,,40,Barneda,David,,2/17/09,2/17/14,,,,0,0,0,0,0
-DDY,Debanjan Nandy,28 Ruff Lal Dutta Lane,Post Bhadrakali Dist. Hoolghly,West Benghal,,712232,INDIA,,,,,debanjan.nandy@gmail.com,,40,Nandy,Debanjan,,9/22/12,9/22/17,,,,0,0,0,0,0
-DHI,Dion Hitchings,201 Ellis Rd.,,Milford,NJ,8848,USA,908-996-6044,,,,dionhitchings4@hotmail.co,,40,Hitchings,Dion,,11/5/08,11/5/13,,,,0,0,0,0,0
-DHU,Dawn Hudson,"4 Daniels Lane, Bethel""",,St. Austell,Co,PL25 3HW,UK,,,,,happyprawn@btinternet.com,,25,Hudson,Dawn,,1/27/04,1/27/09,,,,0,0,0,0,0
-DKI,Dave Kirwan,2041 Dunedin Ave,,Duluth,MN,55803,USA,,,,,davemkirwan@gmail.com,,35,Kirwan,Dave,,4/9/08,4/9/13,,,,0,0,0,0,0
-DNA,Dilyara Nassyrova,"c/o Fernandez, via Duino 24""",,Duino,TS,34011,Italy,,,,,dilkabear@gmail.com,,40,Nassyrova,Dilyara,,11/4/08,11/4/13,,,,0,0,0,0,0
-DPE,Dilek Peker,"Via F Cilea, No 7",Scala C/2,Latina,,,Italy,,,,,info@dpiudesign.com,,40,Peker,Dilek,,7/9/10,7/9/15,P,,,0,0,0,0,0
-DPI,Desy Pistonami,via G. La Pira N#2,,500022 Greve,,IN CHIANTI,Italy,,,,,,,40,Pistonami,Desy,,4/12/12,4/12/17,,,,0,0,0,0,0
-DPR,Darren Pryce,1/473c Neerim Rd.,,Murrumbeena,Vi,3163,Australia,,,,,darren@illustration.net.a,,40,Pryce,Darren,,7/23/08,7/23/13,,,,0,0,0,0,0
-DRA,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-DRO,Doug Ross,312 Poplar Ave,,Santa Cruz,CA,83145-4298,USA,,,,,doug@dougross.com,,50,Ross,Doug,,2/22/07,2/22/12,,,,0,0,0,0,0
-DSE,Dena Vail,#310 - 804 18th Ave S.W.,,Calgary,AB,T2T 0G8,Canada,,,,,denams@telus.net,,40,Seiferling,Dena,,8/7/08,8/7/13,,,,0,0,0,0,0
-DSH,Devon Sharon,"PO Box 4943,Beckenridge,""",,,CO,80424,USA,(1714) 697-4304,,,,devsharon7@gmail.com,,40,Sharon,Devon,,4/14/09,4/14/14,,,,0,0,0,0,0
-DST,Dean Stanton,1024 13 Avenue SW,,Calgary,AB,T2R 0L6,Canada,,,,,deanstanton@hotmail.com,,40,Stanton,Dean,,8/7/08,8/7/13,Birch,,,0,0,0,0,0
-DSU,Denise Sutherland,PO Box 3849,,Weston Creek,AC,2611,Australia,,,,,denise@sutherland-studios,,35,Sutherland,Denise,,5/31/07,5/31/12,,,,0,0,0,0,0
-DTO,Daisuke Torii,"104, Excel estate Yoshida 3, 2-45-5 Nish",,Tokyo,,,Japan,,,,,,,50,Torii,Daisuke,,3/6/10,3/6/15,yoshi artist,,,0,0,0,0,0
-DVE,Dorus Verwiel,Ackersdijckstraat 26,5212 GL 1s,HertogenBosch,,,Holland,,,,,,,40,Verwiel,Dorus,,8/24/12,8/24/17,,,,0,0,0,0,0
-DWH,David Whittle,6 Trinder Road,,Easton-In-Gordano,BR,BS200LX,UK,,,,,d_jay1@hotmail.com,,50,Whittle,David,,3/29/11,3/29/11,,,,0,0,0,0,0
-DYA,Den Yamauchi,"441 Shimo-ohtsu-cho, Goto-shi, Nagasaki",,,,,Japan,,,,,,,50,Yamauchi,Den,,10/2/09,10/2/14,yoshi artist,,,0,0,0,0,0
-DYE,Dmitry Yemelyanov,"Astronomicheskaya St. 19, Apt 39""",,Kharkiv,,61085,Ukraine,,,,,dimon75@gmail.com,,40,Yemelyanov,Dmitry,,10/9/08,10/9/13,,,,0,0,0,0,0
-DYI,Den Yamauchi,"441 Shimo-ohtsu-cho, Goto-shi, Nagasaki",,Goto-shi,,NAGASAKI P,Japan,,,,,,,50,Yamauchi,Den,,10/2/09,10/2/14,yoshi,,,0,0,0,0,0
-DYR,Daylight Road,"20F #32 Lane 31, Minzu Road",,Danshui Taipei,25,,Taiwan,,,,,,,40,Chang,Arra,,3/21/12,3/21/12,,,,0,0,0,0,0
-EAM,Elmira Amirova,"1Flat 24, 5 Starickogo St""",,KHARKOV,,61018,Ukraine,,,,,,,40,Amirova,Elmira,,8/5/09,8/5/14,,,,0,0,0,0,0
-EAR,Etsuko Aramaki,"606, 1-67-1 Yamato-cho""",,Nakano-ku,To,,Japan,03-5353-1797,,,,,,50,Aramaki,Etsuko,,11/12/09,11/12/14,yoshi artist,,,0,0,0,0,0
-EAU,Emiko Aumann,P.O. box 27,,Aledo,TX,76008-0027,USA,817-441-9763,,,,aemiko@earthlink.net,,35,Aumann,Emiko,,7/3/05,7/5/09,,,,0,0,0,0,0
-EBA,Ella Bailey,3 Osborne Avenue,NGS 2HJ,Sherwood,,NOTTINGHAM,UK,,,,,ellabailey@hotmail.com,,50,Bailey,Ella,,10/31/11,10/31/16,,,,0,0,0,0,0
-EBU,Elena Bulay,"Olimpiisky Prospekt, 10-2, 197",,Moscow,,129090,Russia,,,,,,,40,Bulay,Elena,,6/7/12,6/7/17,,,,0,0,0,0,0
-ECO,Erin Cooper,#12 - 133 E 7th Ave,,Vancouver,BC,V5T 1M5,Canada,604-879-1703,,,,eccooper@telus.net,,35,Cooper,Erin,,12/3/02,12/3/09,,,,0,0,0,0,0
-EES,Eeshaun,"Blk 33 Dairy Farm Rd, Dairy Farm Estate,",,,,679051,Singapore,(659) 651-6176,,,,eeshaun@gmail.com,,40,,Eeshaun,,8/20/08,8/20/13,,,,0,0,0,0,0
-EHI,Ellia Hill,1409 South 31st Street,,Milwaukee,WI,53215,USA,,,,,greenbeanbaby@gmail.com,,40,Hill,Ellia,,12/22/08,12/22/13,,,,0,0,0,0,0
-EIT,Eduardo Iturralde,16/16 Waverley Park,,Edinburgh,Sc,EH8 8ET,UK,,,,,heduar2.edin@virgin.net,,35,Iturralde,Eduardo,,5/25/09,5/25/14,,,,0,0,0,0,0
-EJI,Eiji Yamachika,"2-3-16 Honkawa-cho, Naka-k, Hiroshima-sh",,Hiroshima Pref.,,,Japan,,,,,,,50,Yamachika,Eiji,,12/23/09,12/23/14,yoshi artist,,,0,0,0,0,0
-EKH,Eriko Hirabayashi,"c/o Sugimoto, 3-1-15, Kasuya, Setagaya-k",,Tokyo,,,Japan,,,,,,,50,Iwaki,Eriko,,2/2/10,2/2/15,yoshi artist,,,0,0,0,0,0
-EKO,ennakonoma,"3-6-70, Tochino-ohno- machi, Nagaoki-shi",,Niigata Pref.,,,Japan,,,,,,,50,Konoma,Erina,,11/9/21,11/14/21,yoshi artist,,,0,0,0,0,0
-ELR,Elvee Regine,512 N McClurg Court,Apt. #301,Chicago,IL,60611,U.S.A.,,,,,,,40,Regine,Elvira,,8/12/10,8/12/15,,,,0,0,0,0,0
-EMO,Elvia Montemayor,Calle 108 A #150G x 55Y53F,Fraccionamiento Las AMericas,Merida Yucatan,,CP 97302,Mexico,,,,,,,40,Montemayor,Elvia,,8/27/12,8/27/17,,,,0,0,0,0,0
-EPR,Eva Prada,Calle Ancora N 13 Bajo Centro,,Madrid,,28045,Spain,,,,,eprada@evabites.com,,40,Prada,Eva,,7/15/13,7/15/18,,,,0,0,0,0,0
-ERE,Eva Renes,Heimstr. 6,,Berlin,,10965,Germany,,,,,info@erenes.de,,35,Renes,Eva,,1/10/08,1/10/13,,,,0,0,0,0,0
-ESU,Egit Sumekar,"jl. Kiwi no: 11, Bandung""",,Jabarindo,,40184,Indonesia,,,,,sumackey_2010@yahoo.co.id,,40,Sumekar,Egit,,11/5/08,11/5/13,,,,0,0,0,0,0
-EVA,Emilie Vanvolsem,19 AV Mount Kemmel,,Brussels,,1190,Belgium,,,,,emilievanvolsem@hotmail.c,,35,Vanvolsem,Emilie,,5/1/04,5/1/09,,,,0,0,0,0,0
-EVR,Evgeniy Rodionov,9 - 55 Yashin's St,,Vologda,,,Russia,(817) 275-6734,,,,,,40,Rodionov,Evgeniy,,8/24/09,8/24/14,,,,0,0,0,0,0
-EYA,Eiko Yamaji,3-13-37 Ochiai-Minami,Ayase-Shi,"Kanagawa Pref.,",,,Japan,,,,,,,50,Yamaji,Eiko,,9/13/11,9/13/16,yoshi artist,,,0,0,0,0,0
-FAU,Fausta,Segui 4691 2E - cp 1423,,Capital Federal,Bu,,Argentina,+54 11 4777 7869,,,,luli@faustaweb.com.ar,,40,Collazo,Maria Luisa,,12/12/08,12/12/13,,,,0,0,0,0,0
-FCO,Frank Collyer,P.O. Box 179,,Stony Point,NY,10980,U.S.A.,845-947-3050,,845-598-3209,,pensmith@optonline.net,,40,Collyer,Frank,,2/22/11,2/22/16,,,,0,0,0,0,0
-FMA,Francisco Martins,R. Ametista 192A,,Prado,Be,30410-420,Brazil,(55318) 843-6475,,,,francisco@franciscomartin,,40,Martins,Francisco,,12/11/08,12/11/13,,,,0,0,0,0,0
-FOU,Fougougou,"3, Rue Meyrueis, bat B, 3400 """,,Montpellier,,,France,33 0499 6221 17,,,,fougougou@fougougou.com,,40,Charlot,Gaelle,,8/10/09,8/10/14,,,,0,0,0,0,0
-FSH,Fumihiko Shiozawa,"561-27 Katakura-cho, Hachiohji-shi, """,,Tokyo,,,Japan,,,,,,,50,Shiozawa,Fumihiko,,11/2/09,11/2/14,yoshi artist,,,0,0,0,0,0
-FTE,Francesca Tesoriere,Via V. Di Marco n_10,,Palermo,,90143,Italy,,,,,ftesoriere@yahoo.it,,35,Tesoriere,Francesca,,5/27/08,5/27/13,,,,0,0,0,0,0
-GBA,Gregory Baldwin,15 Arthur Street,,Sandringham,Vi,3191,Australia,61395219521,,,,gregbald@gmail.com,,50,Baldwin,Gregory,,4/8/10,4/8/15,,,,0,0,0,0,0
-GCR,Greg Cross,63850 Pioneer Loop Rd,,Bend,OR,97701,U.S.A.,,,,,,,40,Cross,Greg,,8/9/12,8/9/17,,,,0,0,0,0,0
-GDO,Gavin Dobson,132 Bethwin Road,,London,,SE5 0YY,UK,,,,,gavdob@hotmail.com,,35,Dobson,Gavin,,3/25/03,3/25/09,,,,0,0,0,0,0
-GES,Genie Espinosa,"c/provenza 485, 7-3""",,Barcelona,,8025,Spain,34625817243,,,,trouvezlelapin@gmail.com,,40,Espinosa,Genie,,7/14/09,7/14/14,,,,0,0,0,0,0
-GEV,Gareth Evans,201-933 Seymour St.,,Vancouver,BC,V6B 6L6,Canada,,,,,,,35,Evans,Gareth,,3/11/04,3/11/09,,,,0,0,0,0,0
-GIU,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-GKE,Genevieve Kelly,77 Ashdale Crescent,,Timberlea,NS,B3T 1L2,Canada,,,,,genevieve@rareandwelldone,,35,Kelly,Genevieve,,6/16/08,6/16/13,,,,0,0,0,0,0
-GKU,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-GLI,Glimy,Blk 103 Hougang Ave 1,#06-1137,Hougang,,530103,Singapore,6597381319,,,,gary7k@gmail.com,,40,Lim Tze Chong,Gary,,1/24/13,1/24/18,paypal,,,0,0,0,0,0
-GLO,Gloss,ImageZoo,,,,,,,,,,,,35,,Gloss,,5/18/10,5/18/10,,,,0,0,0,0,0
-GLW,G. Lee Wall,2630 Kenwood Avenue,,Richmond,VA,23228,USA,804-673-3632,,,,g.lee.wall@gmail.com,,35,Wall,G.Lee,,12/9/08,12/9/13,,,,0,0,0,0,0
-GTA,Goal Takekuma,"203, 3-25-6 Sendagi",Bunko-ku,Tokyo,,,Japan,,,,,,,50,Takekuma,Goal,,8/24/10,8/24/15,yoshi artist,,,0,0,0,0,0
-GWA,Gary Waters,Le Bez,,Brassal,,81260,France,,,,,,,35,Waters,Gary,,12/17/13,12/17/18,,,,0,0,0,0,0
-HAB,Habbenink,1954 S. 900 E. #6,,Salt Lake City,UT,84105,U.S.A.,,,,,,,50,Habben,David,,4/12/12,4/12/17,David Habben,,,0,0,0,0,0
-HAR,Hugh Armstrong,P.O. box 742,,Milton,FL,32572,USA,850-626-0171,,,,hugh@ha3graphics.com,,35,Armstrong,Hugh,,9/15/04,9/15/09,,,,0,0,0,0,0
-HAS,Hana Asami,7-13-20 103 Kinuta Setagata-ku,,Tokyo,,,Japan,,,,,,,50,Asami,Hana,,11/1/09,11/1/14,yoshi artist,,,0,0,0,0,0
-HBO,Honor Bowden,150 Sunshine Parade,,Miami,QL,4220,Australia,(6141) 456-9158,,,,studio@galahouse.com,,40,Bowden,Honor,,2/9/09,2/9/14,,,,0,0,0,0,0
-HBU,Hannah Bureau,"144 Moody St., Building 18""",,Waltham,MA,2453,USA,617-519-0075,,,,hannahbureau@gmail.com,,40,Bureau,Hannah,,1/28/09,1/28/14,,,,0,0,0,0,0
-HFU,Hiroshi Fujii,"106, 2-14-27 Shibuya-Ku Higashi""",,Tokyo,,,Japan,,,,,,,50,Fujii,Hiroshi,,11/2/09,11/2/14,yoshi artist,,,0,0,0,0,0
-HGE,Hadar Geva,"Mohaliver, A4,",,Hertzlia,,,Israel,,,,,,,40,Geva,Hadar,,3/8/12,3/8/17,paypal,,,0,0,0,0,0
-HGR,Heather Griffin,826 Crosspoint Road,,Waconia,MN,55387,USA,612-790-7365,,,,heather@bluetricycle.com,,40,Griffin,Heather,,1/6/09,1/6/14,,,,0,0,0,0,0
-HHU,Helen Huang,5010 Cahuenga Blvd,Unit 111,North Hollywood,CA,91601,U.S.A.,,,,,,,40,Huang,Helen,,12/7/12,12/7/17,,,,0,0,0,0,0
-HLA,Holly Lanagan,U3100/36 Caloundra Central Apartments Cn,,Caloundra,QL,4551,Australia,,,,,hollylanagan@hotmail.com,,40,Lanagan,Holly,,2/9/09,2/9/14,,,,0,0,0,0,0
-HMA,Heather Castles,"475 Wincanton Drive, Apt. 301""",,Orleans,ON,K4A 3Y1,Canada,,,,,heather@illustrationcastl,,25,Castles,Heather,,6/19/07,6/19/12,25% after 06/19/12,,,0,0,0,0,0
-HML,Hugo Maciel,Travessa De Fornelos,N 26-Bl.4 - 2 ESQ,4900-226 Viana Do Ca,,,Portugal,,,,,,,40,Maciel,Hugo,,2/21/12,2/21/17,,,,0,0,0,0,0
-HNA,Hiroshi Nagasawa,"1511-3 Hongo-cho, Takasaki-shi""",,Gunma Pref,,,Japan,,,,,,,50,Nagasawa,Hiroshi,,10/30/09,10/30/14,yoshi artist,,,0,0,0,0,0
-HST,Hannah Stouffer,801 N Occidental Blvd,,Los Angeles,CA,90026,U.S.A.,,,,,,,40,Stouffer,Hannah,,3/22/12,3/22/17,,,,0,0,0,0,0
-HTA,Hiro Tanahashi,#301,2-5-29 Wakamiya,Nakano-ku,,TOKYO,Japan,,,,,,,50,Tanahashi,Hiro,,6/4/11,6/4/16,yoshi artist,,,0,0,0,0,0
-HTS,Hiroki Tsuboi,"103, 1-19-18 Hayamia, Nerima-ku""",,Tokyo,,,Japan,,,,,,,50,Tsuboi,Hiroki,,11/16/09,11/16/14,yoshi artist,,,0,0,0,0,0
-HUE,Hidehiro Ueoka,17-12-210 Mondo-so,,Nsihinomiya-shi,,HYOGO PREF,Japan,,,,,,,50,Hidehiro,Ueoka,,1/12/11,1/12/16,yoshi,,,0,0,0,0,0
-HWS,Helena Wilsen-Saunders,"Denecroft, 17 White Rose Lane""",,Woking,Su,GU22 7JT,UK,,,,,artistic_shopaholic@hotma,,40,Wilsen-Saunders,Helena,,11/7/08,11/7/13,,,,0,0,0,0,0
-IEL,Ian Ellery,"25 Nelson Road, Hastings""",,Hastings,Ea,TN34 3RX,UK,142718209,,,,ian@toondesign.biz,,40,Ellery,Ian,,6/18/09,6/18/14,,,,0,0,0,0,0
-IGR,Iva Grueva,Gen. Stoletov Str.,"Floor 6, Flat 18",Stara Zagora,,6000,Bulgaria,,,,,slatebluesky@gmail.com,,40,Grueva,Iva,,8/8/14,8/8/14,,,,0,0,0,0,0
-IMO,Isaac Montemayor,Alerce 4842,Los Cedros C.P. 64370,Monterrey,,NUEVO LEON,Mexico,+52 81 10 24 30 02,,,,,,40,Montemayor,Isaac,,10/26/11,10/26/16,,,,0,0,0,0,0
-IMZ,ImageZoo,,,,,,U.S.A.,,,,,,,100,,,,9/15/10,9/15/10,,,,0,0,0,0,0
-INT,Intellecta Design,Barao de Cocais 235 IPSEP,Recife PE,,,51190 736,Brazil,,,,,,,40,Design,Intellecta,,4/19/12,4/19/17,,,,0,0,0,0,0
-IOL,Iryna Olenina,"Somorvskaya St 12-B, apt. 64""",,Kharkiv,,61005,Ukraine,,,,,iraolenina@mail.ru,,40,Olenina,Iryna,,9/10/08,9/10/13,,,,0,0,0,0,0
-ISO,Irena Sophia,54 Lake Kitchawan Drive,,South Salem,Ne,10590,USA,(917) 209-0550,,,,iriko@optonline.net,,40,Sophia,Irena,,2/18/09,2/18/14,,,,0,0,0,0,0
-ITO,Ikuo Tohda,"22-18-8Sankubo-cho, Kawagoe-shi""",,Saitama Pref,,,Japan,,,,,,,50,Tohda,Ikuo,,10/26/09,10/26/14,yoshi artist,,,0,0,0,0,0
-IZA,Isabella Rieche,ImageZoo,,,,,,,,,,,,40,Rieche,Isabella,,5/18/10,5/18/10,,,,0,0,0,0,0
-JAB,Janie Berthiaume,2617 East Lombard Street,,Davenport,IA,52803,USA,,,,,juanita@the-design-trade.,,35,Giltner,Janie,,9/26/08,9/26/13,,,,0,0,0,0,0
-JAD,Jordan Adams,ImageZoo,,,,,,,,,,steph@imagezoo.com,,35,Adams,Jordan,,5/18/10,5/18/10,,,,0,0,0,0,0
-JAM,James Peters,991 Avenue Road,,Toronto,ON,M5P 2K9,Canada,,,,,james@terrapin-graphics.c,,35,Peters,James,,4/2/07,4/2/12,,,,0,0,0,0,0
-JBA,Justin Baker,1939 East 51st Avenue,,Vancouver,BC,V5P 1W1,Canada,778-997-9733,,,,jbakerdesign@shaw.ca,,25,Baker,Justin,,11/1/02,11/1/09,,,,0,0,0,0,0
-JBO,Jens Bonnke,Fichtestrasse 19,,,,,Germany,+49(0)30.69.51 52 04,,,,jb@jensbonnke.de,,35,Bonnke,Jens,,8/8/03,8/8/09,,,,0,0,0,0,0
-JBR,Jill Browning,"3103 S. County Road, 710E""",,Seymour,IN,47274,USA,812-216-2384,,,,jill@jillbrowning.com,,40,Browning,Jill,,12/10/08,12/10/13,,,,0,0,0,0,0
-JCA,Joseph Cali,2-9-28 honmachi nishi,,chuo-ku,sa,338-0004,Japan,338-0004,,,,jcali@gol.com,,35,Cali,Joseph,,1/19/07,1/19/10,,,,0,0,0,0,0
-JCO,Jolanda Codognato,"via Aselli Gaspare, 25, 20133",,Milano,,,Italy,,,,,,,40,Codognato,Jolanda,,5/20/12,5/20/17,,,,0,0,0,0,0
-JDE,Jeff DeWeerd,15786-92B Avenue,,Surrey,BC,V4N 3B2,Canada,604-582-5802,,,,jddeweerd@gmail.com,,35,DeWeerd,Jeff,,8/8/07,8/8/12,,,,0,0,0,0,0
-JEA,Jesus Aburto,Emilio Garza Melendez 7204,,"col. Lomas Mederos""""",CO,NL,Mexico,,,,,jesus@aburto.ws,,35,Aburto,Jesus,,2/1/06,2/1/09,,,,0,0,0,0,0
-JED,Jackie Edwards,705 Sunnypoint Drive,,Newmarket,ON,L3Y 2Z7,Canada,,,,,jedwards198@rogers.com,,35,Edwards,Jackie,,3/31/04,3/31/09,,,,0,0,0,0,0
-JEG,Jerry Gonzalez,30-89 34th St. Apt. 2A,,Astoria,NY,11103,U.S.A.,,,,,jgart@earthlink.net,,40,Gonzalez,Jerry,,8/14/12,8/14/17,,,,0,0,0,0,0
-JFI,James Filbry,16-3477 Commercial St.,,Vancouver,BC,V5N 4E8,Canada,604-691-6524 (work),,,,jfilbry@telus.net,,35,Filbry,James,,3/3/03,3/3/09,,,,0,0,0,0,0
-JGH,Jessica Hogarth,Hawthorn Cottage,"Raw, Whitby,",North Yorkshire,,Y022 4PP,UK,,,,,,,0,Hogarth,Jessica,,2/26/12,2/26/17,,,,0,0,0,0,0
-JGO,Jim Gordon,32 High Street,,Quincy,MA,2169,U.S.A.,,,,,jimgordonstudios@comcast.net,,40,Gordon,Jim,,9/12/12,9/12/17,,,,0,0,0,0,0
-JGR,Jessica Graham,61 Meath,,Middlesbrough,,CLEVELAND,UK,,,,,jessicagraham16@hotmail.com,,40,Graham,Jessica,,4/7/11,4/7/16,,,,0,0,0,0,0
-JHE,Julie Hendriks,van Trigtstraat 92,,Den Haag,,2597 XB,The Netherlands,,,,,info@beerlala.nl,,35,Hendriks,Julie,,8/31/03,8/31/09,,,,0,0,0,0,0
-JHG,Jessica Hogarth,Hawthorn Cottage,"Raw, Whitby",North Yorkshire,,YO22 4PP,UK,,,,,,,50,Hogarth,Jessica,,2/26/12,2/26/17,,,,0,0,0,0,0
-JHO,Joost Hogervorst,Luwte 17 Annendelf,,,,,The Netherlands,,,,,creatis@hotmail.com,,35,Hogervorst,Joost,,5/1/04,5/1/09,,,,0,0,0,0,0
-JIM,Jimajima,"402, 4-2-66 Sakae-machi, Tachikawa-shi""",,Tokyo,,,Japan,,,,,,,50,Nakajima,Jinya,,3/6/10,3/6/15,yoshi artist,,,0,0,0,0,0
-JJI,Jombiejing,Block 52 Choa Chu Kang North 6,#21-21 Singapore 689575,,,,U.S.A.,+65 9060 0235,,,,jinyee@gmail.com,,40,Ng Jin,Yee,,7/9/12,7/9/17,,,,0,0,0,0,0
-JJO,Juli Johns,"PO Box 733, 2647 Maryport Ave""",,Cumberland,BC,V0R 1S0,Canada,250-336-8616,,,,juli@freshwater-creative.,,40,Johns,Juli,,11/2/08,11/2/13,Birch,,,0,0,0,0,0
-JKI,Junichi Kishi,"8-33-02, 705 Hirno, Minato-minami-Ku, Yo",,Kanagawa Pref.,,,Japan,,,,,,,50,Kishi,Junichi,,10/6/09,10/6/14,yoshi artist,,,0,0,0,0,0
-JLI,Jay Lim,"3-1 Alpha Villa, No. 12 Jalan 2/27 A""",,"Wangsa Maju, Setapak",Ku,53300,Malaysia,6016 2090418,,,,animator_alive7@hotmail.c,,40,Lim,Jay,,8/25/08,8/25/13,,,,0,0,0,0,0
-JMA,Joe McDermott,1436 Lombard St,,Philadelphia,,19146,U.S.A.,,,,,,,40,McDermott,Joe,,11/8/10,11/8/15,,,,0,0,0,0,0
-JMG,Jens Magnusson,Kocksgatan 24,,11624 Stockholm,,,Sweden,46709182672,,,,jens@jensjens.com,,40,Magnusson,Jens,,1/3/12,1/3/17,,,,0,0,0,0,0
-JMI,Jo„o Miranda,Urbanizacao Cerro de Sao Sebatiao,Fraccao A,8200-090 Guia,,ALBUFEIRA,Portugal,,,,,,,40,Miranda,Jo„o,,4/10/13,4/10/13,,,,0,0,0,0,0
-JNE,Jimi Newport,85 Warren Avenue,Southsea,Hants,PO,HAMPSHIRE,UK,,,,,,,40,Newport,Jimi,,8/7/12,8/7/17,,,,0,0,0,0,0
-JOB,Joao Brandao,"Rua de Meinedo, 127",4100 - 338 Porto,,,,Portugal,+351 939495518,,,,joao.brandao.mx@gmail.com,,40,Brandao,Joao,,6/27/12,6/27/12,,,,0,0,0,0,0
-JOL,Jennifer Orkin Lewis,18 Croton Place,,Irvington,NY,105333,U.S.A.,,,,,augustwren@gmail.com,,40,Orkin Lewis,Jennifer,,11/8/13,11/8/18,,,,0,0,0,0,0
-JOR,James Orndorf,166 Hermosa Drive,,Durango,CO,81301,U.S.A.,,,,,,,40,Orndorf,James,,4/10/12,4/10/17,,,,0,0,0,0,0
-JPA,Janet Pacey,23 Forrest Park,,Yellowknife,NT,X1A 2B4,Canada,,,,,jpacey@theedge.ca,,40,Pacey,Janet,,8/7/08,8/7/13,Birch,,,0,0,0,0,0
-JPC,Joao Pedro Canhenha,3141 Casa De Campo,Apt. #200,San Mateo,CA,94403,U.S.A.,,,,,,,40,Canhenha,Joao Pedro,,4/10/12,4/10/17,,,,0,0,0,0,0
-JPE,Jesus Perea,"c/Uruguay NÁ 12, 4ÁD""",,Madrid,,28016,Spain,(65) 401-8948,,,,jesus@jesusperea.com,,35,Perea,Jesus,,1/22/07,1/22/12,,,,0,0,0,0,0
-JPI,Jade Pilgrom,1617 35th Avenue N.,,Birmingham,AL,35207,U.S.A.,,,,,volcanicviperism@gmail.com,,40,Pilgrom,Jade,,7/3/12,7/3/17,paypal,,,0,0,0,0,0
-JRO,Jens Rotzsche,Krumme Strasse 12,,Otzberg,,64853,Germany,,,,,jens@adastragrafx.de,,40,Rotzsche,Jens,,5/12/08,5/12/13,,,,0,0,0,0,0
-JSD,JS Daniel,211 Bristol Station  CT,,Carteret,NJ,7008,U.S.A.,201-467-1124,,,,summerain3@gmail.com,,40,Babu,Joylin,,8/14/12,8/14/17,sujay.daniel@gmail.com,,,0,0,0,0,0
-JSJ,Jynell St James,8 The Nook,,Balwyn North,VI,3104,Australia,,,,,thelovehq@gmail.com,,40,St James,Jynell,,4/14/09,4/14/14,,,,0,0,0,0,0
-JTS,Junichi Tsuneoka,PO BOX 46045,,Seattle,WA,98146,U.S.A.,2063885052,,,,,,40,Tsuneoka,Junichi,,3/1/10,3/1/15,,,,0,0,0,0,0
-JVS,Jennifer Vandersteen,207 La Colina Crescent,,Henderson,NV,89012,U.S.A.,702-327-1810,,,,jendraws@gmail.com,,50,Vandersteen,Jennifer,,4/1/11,4/1/16,,,,0,0,0,0,0
-JWA,Junji Watanabe,"316, 1-2-5 Higasisuna, Koto-ku""",,Tokyo,,,Japan,,,,,,,50,Watanabe,Junji,,2/22/10,2/22/15,yoshi artist,,,0,0,0,0,0
-JZA,Joanna Zastrozna,"81737 Sopot, 7 Langiewiczastr""",,,,,Poland,,,,,lalala@joannazastrozna.co,,35,Zastrozna,Joanna,,10/13/03,10/13/09,,,,0,0,0,0,0
-JZR,Jennifer Z. Roszell,3362 Monaghan St.,,Dublin,CA,94568,USA,925-209-7776,,,,jen@jzroszell.com,,40,Roszell,Jennifer,,12/11/08,12/11/13,,,,0,0,0,0,0
-KAI,Katsumi Araki,18-7-1-2 Hikari-dai,"Seika-cho, Souraku-gun",Kyoto Pref,,,Japan,,,,,,,50,Araki,Katsumi,,11/12/10,11/12/15,yoshi artist,Photo scan only Getty RM,,0,0,0,0,0
-KAN,Kayoko Nawa,2-141 Umemori-dai,Nisshin-shi,Aichi Pref,,,Japan,,,,,,,50,Nawa,Kayoko,,8/7/10,8/7/15,yoshi artist,,,0,0,0,0,0
-KAR,Karo,101 bd Wilson le Santa Fe bat B,,Juan les pins,,6160,France,+33 (0)6 61 81 68 35,,,,karo.illustrations@wanado,,35,Pala,Caroline,,6/29/07,6/29/12,,,,0,0,0,0,0
-KAY,Kayano,"c/o Imaki, 355-2 Taniguchi, Minabe-cho,",,Wakayama Pref.,,,Japan,,,,,,,50,,Kayano,,11/14/09,11/14/14,yoshi artist,,,0,0,0,0,0
-KCH,Kat Chadwick,133 Sackville Street,,Collingwood,VI,3066,Australia,(6139) 415-6222,,,,kat@designland.com.au,,40,Chadwick,Kat,,7/22/08,7/22/13,,,,0,0,0,0,0
-KEI,Kei Hazuki,202 Oakhouse 3-18-21 Kami-soshigaya Seta,,Tokyo,,,Japan,,,,,,,50,Hazuki,Kei,,8/25/10,2/15/15,yoshi artist,,,0,0,0,0,0
-KFE,Kiko Feria,Trav. Iglesia 2A,,Quijorna,Ma,28093,Spain,-971,,,,kkikoferia@hotmail.com,,40,Feria,Kiko,,6/30/09,6/30/14,,,,0,0,0,0,0
-KFI,Karen Fields,7509 Clementine Way,,Orlando,FL,32819,USA,321-438-8140,,,,fieldskaren@yahoo.com,,40,Fields,Karen,,12/10/08,12/10/13,,,,0,0,0,0,0
-KFL,Kim Fleming,18 Dundalk Street,,Sunshine,VI,3020,Australia,,,,,kim@foobox.com,,40,Fleming,Kim,,4/27/09,4/27/14,,,,0,0,0,0,0
-KHA,Keika Hayashi,3-17-19 Shimoda-cho Minato-Kita-Ku Yokoh,,Kanagawa Pref.,,,Japan,,,,,,,50,Hayashi,Keika,,10/19/09,10/19/14,yoshi artist,,,0,0,0,0,0
-KHI,Kei Hiramatsu,206 2-8-45 Sekimachi-minami Nerima-ku,,Tokyo,,,Japan,,,,,,,50,Hiramatsu,Kei,,2/18/10,2/18/15,,,,0,0,0,0,0
-KIN,Kenji Inoue,"1449 Oza-Ozumi Oki-machi Mizuma-Gun, """,,Fukuoka Pref.,,,Japan,,,,,,,50,Inoue,Kenji,,11/10/09,11/10/14,yoshi artist,,,0,0,0,0,0
-KIS,Kaori Ishizaka,"03-23-08 Sugao, Miyamae-ku, Kawasaki-shi",,Kanagawa Pref,,,Japan,,,,,,,50,Ishizaka,Kaori,,10/27/09,10/27/14,yoshi artist,,,0,0,0,0,0
-KIW,Kazuhiro Iwata,"5-34-18, Higashi-Hongo, Midori-Ku",Yokohama-Shi,Kanagawa Pref,,,Japan,,,,,,,50,Iwata,Kazuhiro,,12/2/10,12/2/15,yoshi artist,,,0,0,0,0,0
-KJA,Ken Jacobsen,20 McKellips Rd D424,,Tempe,AZ,8528,U.S.A.,,,,,,,40,Jacobsen,Ken,,9/18/09,9/18/14,,,,0,0,0,0,0
-KJM,Kerri-Jane Mitchell,6 Oakridge Avenue,,Oakridge,78,CAPETOWN,South Africa,27836591663,,,,kerrijane.mitchell@gmail.com,,0,Mitchell,Kerri-Jane,,6/1/11,6/1/16,,,,0,0,0,0,0
-KJO,Krista Johnson,2220 Heather St.,,Vancouver,BC,V5Z 3H6,Canada,604-733-0477,,,,johnson.krista@hotmail.co,,35,Johnson,Krista,,8/14/02,8/14/09,,,,0,0,0,0,0
-KKI,Kitty Kilian,Mauritsstraat 17,3583 HG Utrrecht,,,,Netherlands,+31 30 251 21 57,,,,hallo@kittykilian.nl,,40,Kilian,Kitty,,11/25/10,11/25/15,,,,0,0,0,0,0
-KLE,Kari Lehr,"Mosaic Artworks, Inc., PO Box 1156""",,Blairmore,AB,T0K 0E0,Canada,,403-562-7120,,,kari1@jrtwave.com,,40,Lehr,Kari,,8/7/08,8/7/13,Birch,,,0,0,0,0,0
-KMO,Kenji Motohashi,1019-19 Arahata,,Tokorozawa-shi,Sa,,Japan,,,,,,,50,Motohashi,Kenji,,6/26/10,6/26/15,yoshi artist,,,0,0,0,0,0
-KNA,Keiko Nakabachi,"Ichikawa Bldg. 3F, 17-14 Oyaguchi-kamicy",,Tokyo,,,Japan,,,,,,,50,Nakabachi,Keiko,,10/22/09,10/22/14,yoshi artist,,,0,0,0,0,0
-KNO,Kenichi Nakane,"504, 2-28-8 Ishihara Sumida-ku",,Tokyo,,,Japan,,,,,,,50,Nakane,Kenichi,,11/27/09,11/27/14,yoshi artist,,,0,0,0,0,0
-KOD,Keisuke Oda,"4-22, 4-chome, Kotoni 2-jo,","Nishi-ku,",Sapporo-shi,,HOKKAIDO,JAPAN,,,,,,,50,Oda,Keisuke,,12/21/10,12/21/15,yoshi,,,0,0,0,0,0
-KSH,Kana Shimao,2-27-28 Sawai-cho,Fuchu-shi,Tokyo,,,Japan,,,,,,,50,Shimao,Kana,,3/9/11,3/9/11,yoshi artis,,,0,0,0,0,0
-KSI,Kakigori Studio,"Avenida Del Velodromo 101,",2-2. 08304,Mataro,,BARCELONA,Spain,,,,,paypal@kakigoristudio.com,,40,Jessica,Guarnido,,8/14/12,8/14/17,paypal,,,0,0,0,0,0
-KST,Kim Stewart,9223 Fox Drive,,Prince George,BC,V2K 5H4,Canada,250-971-2528,,,,kim.art4life@gmail.com,,40,Stewart,Kim,,12/4/08,12/4/13,Birch,,,0,0,0,0,0
-KTA,Kayo Tamaishi,"627-2-239 Noba-cho, Kouna-ku, Yokohama-s",,Kanagawa Pref.,,,Japan,,,,,,,50,Tamaishi,Kayo,,11/30/09,11/30/14,yoshi artist,,,0,0,0,0,0
-KUN,Kunihiko Nakano,"3-9-501 Uemachi, Chou-ku, Osaka-shi""",,Osaka Pref,,,Japan,,,,,,,50,Nakano,Kunihiko,,11/30/09,11/30/14,yoshi artist,,,0,0,0,0,0
-KVW,Kiley Victoria Woolgar,27 Manston Close,,"Leicester, Leicester",,LE49NA,UK,,,,,kiley.victoria@yahoo.co.uk,,50,Woolgar,Kiley Victoria,,2/4/12,2/4/17,paypal,,,0,0,0,0,0
-KWA,Kauya Kawamura,10-29 Oshikabe-cho,,Tsu-shi,Mi,,Japan,,,,,,,50,Kawamura,Kauya,,5/28/10,5/28/15,yoshi artist,,,0,0,0,0,0
-KYN,Kyoko Nakazawa,"5-34-18 Higashi_Hongo, Midori-Ku.",Yokohama-shi,Kanagawa Pref,,,Japan,,,,,,,50,Nakazawa,Kyoko,,12/2/09,12/2/14,yoshi artist,,,0,0,0,0,0
-LAL,Larry Limnidis,75 Heaslip Terrace,,Scarbough,ON,M1T1W8,Canada,416.292.6144,,,,laertisart@sympatico.ca,,40,Limnidis,Laertis,,8/4/09,8/4/14,,,,0,0,0,0,0
-LAS,Lana Sundman,12838 Serenity Drive,,Frisco,TX,75035,U.S.A.,,,,,,,40,Sundman,Lana,,11/7/11,11/7/16,,,,0,0,0,0,0
-LBE,Laura Bertinelli,Borgo xx Giugno 75,,Perugia,6,,Italy,,,,,,,50,Bertinelli,Laura,,2/16/12,2/16/17,RM,,,0,0,0,0,0
-LBO,Laura Bolter,9320 Hall Drive,,Lenexa,KS,66219,USA,,,,,lbolter@everestkc.net,,25,Bolter,Laura,,6/27/05,6/27/09,,,,0,0,0,0,0
-LBR,Laura Braisher,23 Ennerdale Road,,Stubbington,,HAMPSHIRE,UK,7929424695,,,,l.braisher@btinernet.com,,50,Braisher,Laura,,4/10/12,4/10/17,,,,0,0,0,0,0
-LBS,Lola & Bek,"1025 Maxwell Lane, Ap. 1107""",,Hoboken,NJ,7030,USA,212-481-5779 / 201-526-40,,,,lolabek@lolabek.com,,35,Bek Shakirov,Lola,,11/5/07,11/5/12,,,,0,0,0,0,0
-LCO,Lido Contemori,via della Piazzauola 25,,Firenze,,50133,Italy,+39(0)55-552-2593,,,,lidoco@tin.it,,35,Contemori,Lido,,9/18/08,9/18/13,,,,0,0,0,0,0
-LDO,Lorenzo Donati,via Ingann. 84,,Milano,,,Italy,,,,,info@lorenzodonati.com,,25,Donati,Lorenzo,,6/14/05,6/14/09,"25% as of June 14, 2010",,,0,0,0,0,0
-LFA,Logan Faerber,18 Dustin St.,,Boston,MA,2135,U.S.A.,401-297-7133,,,,,,50,Faerber,Logan,,2/14/12,2/14/17,,,,0,0,0,0,0
-LIB,LIBE,"4400-27 Simokage, Toyooka-shi""",,Hyogo Pref,,,Japan,,,,,,,50,Oji,Kaori,,2/27/10,2/27/15,yoshi artist,,,0,0,0,0,0
-LLU,Lulu,16 Bridgman Ave,,Toronto,ON,M5R 1X2,Canada,(416) 577-2630,,,,kyrakendall@mac.com,,40,Kendall,Kyra,,2/9/09,2/9/14,,,,0,0,0,0,0
-LMA,Maxim Lagno,Raimbek st. 150/39,,Almaty,,,Kazakstan,(7727) 273-2941,,,,write@lagnomaxim.com,,40,Lagno,Maxim,,11/6/08,11/6/13,,,,0,0,0,0,0
-LMU,Leon Mussche,"Prinsengracht 450-IV, 1017 KE""",,Amsterdam,,,The Netherlands,+31 (0)6 51 88 68 18,,,,info@onleon.com,,35,Mussche,Leon,,4/25/07,4/25/12,,,,0,0,0,0,0
-LPI,Louise Phillips,306-628 W. 13th Avenue,,Vancouver,BC,V5Z1N9,Canada,,,778-737-2431,,,,40,Phillips,Louise,,12/21/11,12/21/16,,,,0,0,0,0,0
-LSC,Laura Schmidt,6900 State Hwy 161,Apt. 123,Irvine,TX,75039,U.S.A.,972-974-5249,,,,laurarschmidt@gmail.com,,50,Schmidt,Laura,,4/8/11,4/8/16,,,,0,0,0,0,0
-LSI,Lauren Simone,51 Park Street #1,,Portland,ME,4101,USA,,,,,cathedralanatomy@gmail.co,,40,Simone,Lauren,,7/24/09,7/24/14,,,,0,0,0,0,0
-LSV,Lorna Siviter,190 Henley Road,,Taunton Somerset,,TAI SBW,UK,,,,,lorna.siviter@googlemail.com,,40,Siviter,Lorna,,6/8/11,6/8/16,,,,0,0,0,0,0
-LTU,LouLou & Tummie,Lange Nieuwstraat 59,,Tilburg,,5041DA,The Netherlands,+31 (0)6 109 45 362,,,,loulou@loulouandtummie.co,,40,Schellekens,Laurens,,12/11/08,12/11/13,,,,0,0,0,0,0
-LVI,Lala Vicencio,5900 Matilde Street,Brgy. Poblacion,Makati City,,1210,Philippines,,,,,,,40,Vicencio,Larissa,,1/12/13,1/12/18,,,,0,0,0,0,0
-MAB,Maria Bell,531 Oriole Drive,,Oakville,ON,L6K 1N7,Canada,,,,,maria@mariabellimages.com,,40,Bell,Maria,,1/27/09,1/27/14,"november 3rd non exclusive, lower rate",,,0,0,0,0,0
-MAC,Macky,"3-13 Ise-cho, Saga-shi""",,Saga Pref,,,Japan,,,,,,,50,Sawa,Maki,,3/31/10,3/31/15,yoshi artist,,,0,0,0,0,0
-MAI,Mark Airs,Viborggade 47A Baghuset,,,Co,2100 KBH 0,Denmark,,,,,mark@markairs.com,,40,Airs,Mark,,10/1/09,10/1/14,,,,0,0,0,0,0
-MAM,Mamayon,"Terrace Green Hill 105, Nishi_ooi",,Shinagawa-ku,To,,Japan,,,,,,,50,,Mamayon,,10/20/09,10/20/14,yoshi artist,,,0,0,0,0,0
-MAT,Matsuichi,"1195-25 Oaza-shimokoga, Higashi-yoka-cho",Saga-shi,Saga Pref,,,Japan,,,,,,,50,Matsuo,Koichi,,9/24/10,9/24/15,yoshi artist,,,0,0,0,0,0
-MBA,Mimi Baum,#7-13-1 Nagao,Tama-ku,Kawasaki-shi,,KANAGAWA P,JAPAN,,,,,,,50,Watanabe,Maho,,10/20/10,10/20/15,yoshi,,,0,0,0,0,0
-MBE,Matthias Bender,Geschwister-Scholl-Str. 5,,Trebur-Astheim,,65468,Germany,+49(0) 6147.3328,,,,bender-illus@t-online.de,,25,Bender,Matthias,,4/23/07,4/23/12,,,,0,0,0,0,0
-MBI,Mr. Biscuit,Zwijnaardsesteenweb 508C,,Gent,90,,Belgium,,,,,richard.nash@lightboxmagic.com,,50,Nash,Richard,,7/31/12,7/31/17,,,,0,0,0,0,0
-MCH,Mujka Chic,305-930 North Park St.,,Victoria,BC,V8T 1C6,U.S.A.,,,,,info@mujka.ca,,50,Sup,Burcu Arat,,7/26/12,7/26/17,paypal,,,0,0,0,0,0
-MCK,MCKIBILLO,40 Cliff St.,,Beacon,NY,12508,U.S.A.,,,,,josh@mckibillo.com,,40,McKible,Josh,,8/9/12,8/9/17,paypal same address,,,0,0,0,0,0
-MCM,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-MDB,Melissa Dustan Bartman,57 Weston Court SW,,Calgary,AB,T3H 5E7,Canada,403-293-4920,,,,mbartman@shaw.ca,,40,Dustan Bartman,Melissa,,12/2/08,12/2/13,Birch,,,0,0,0,0,0
-MDY,Michelle Dybing,1 Lawsons Court,,Templestowe,Vi,3106,Australia,,,,,michelle@innovativeillustration.com,,40,Dybing,Michelle,,12/11/08,12/11/13,,,,0,0,0,0,0
-MFR,Muriel Frega,Felipe Vallesse 453,,Ciudad Autonoma de B,,C1405CWC,Argentina,,,,,murielfrega@gmail.com,,25,Frega,Muriel,,4/23/07,4/23/12,make cheque payable to Zaida Frega,,,0,0,0,0,0
-MFU,Miho Fukumoto,2-11-6 Iguchi,,Mitaka-shi,To,56001,Japan,(3462) 658-7906,,,,,,50,Fukumoto,Miho,,10/17/09,10/17/14,yoshi artist,,,0,0,0,0,0
-MGW,Magdalena Glawer,67-020 Dabrowka,,Azaliowa 2/1,,,Poland,,,,,,,40,Glawer-Walinska,Magdalena,,4/10/12,4/10/17,,,,0,0,0,0,0
-MHA,Mamiko Hasebe,Grandale #305,2-27-4 Nishiarai-Sakaemachi,Adachi-ku,,TOKYO,Japan,,,,,,,50,Hasebe,Mamiko,,10/27/09,10/27/14,,,,0,0,0,0,0
-MHE,Mar Hern·ndez,"c/ En Bou, No 4, 1o""",,Valencia,,56001,Spain,(3462) 658-7906,,,,me@malotaprojects.com,,40,Herníçndez,Mar,,2/9/09,2/9/14,,,,0,0,0,0,0
-MHG,Meiya Huang,"7F. No.7, Ln32,","Beining Rd. Songshan Dist.,",Taipei City 105,,,Taiwan,8.86226E+11,,,,,,40,Huang,Meiya,,2/16/12,2/16/17,,,,0,0,0,0,0
-MHW,Megan Howe,"707 S L St.,",,Tacoma,WA,98405,U.S.A.,,319-651-5707,,,,,50,Howe,Megan,,4/3/12,4/3/17,RM and RF,,,0,0,0,0,0
-MIF,Minoru Furuse,"Kosumo-kawaguchi-saiwai-cho 102, 3-8-46,",,Saitama Pref,,,Japan,,,,,,,50,Furuse,Minoru,,2/10/10,2/10/15,yoshi artist,,,0,0,0,0,0
-MIM,Michiko Maeda,"526-3 Kayano, Koryo-chi",Kita-Katsuragi-gun,Nara Pref,,,Japan,,,,,,,50,Maeda,Michiko,,9/1/10,9/1/15,yoshi artist,,,0,0,0,0,0
-MIN,Masami Inukai,"1065-5 Higashi-terayama-cho, Wakaba-ku,",,Chiba,,264-0035,Japan,,,,,wanwan@gol.com,,40,Inukai,Masami,,9/2/08,9/2/13,,,,0,0,0,0,0
-MIS,Melanie Isaacson,416 E. University,,Bloomington,IN,47401,U.S.A.,,,,,,,40,Isaacson,Melanie,,8/10/10,8/10/15,,,,0,0,0,0,0
-MIY,Mizuki Yuasa,"302 Fujiya #2 Bldg, 4-13 Taira-shirogane",Iwaki-shi,Fukushima Pref,,,Japan,,,,,,,50,Yuasa,Mizuki,,6/13/10,6/13/15,yoshi artist,,,0,0,0,0,0
-MJU,Marty Juchnevic,107A Shernhall,,London,,E179HS,UK,,,,,,,40,Juchnevic,Marty,,8/2/12,8/2/17,,,,0,0,0,0,0
-MKA,Magda Kalosz,"Dragana, 12-55""",,,Lv,79049,Ukraine,,,,,irena@zablotska.com,,40,Kalosz,Magda,,12/12/08,12/12/13,,,,0,0,0,0,0
-MLI,Malobi,"61, Tudor Rd,",,"Easton, Bristol",BS,,UK,+44 7772 618165,,,,,,40,Briand,Laurence,,9/7/12,9/7/17,,,,0,0,0,0,0
-MMA,Miyako Matsuda,"3425 4-19-1 Shibaura, Minato-ku""",,Tokyo,,,Japan,,,,,,,50,Matsuda,Miyako,,3/15/10,3/15/15,yoshi artist,,,0,0,0,0,0
-MMU,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-MNA,Michiko Nakazato,"2528, Ishihara-cho, Takasaki-shi""",,Gunma Pref.,,,Japan,,,,,,,50,Nakazato,Michiko,,12/25/09,12/25/14,yoshi artist,,,0,0,0,0,0
-MNE,Malane Newman,16764 Daza Drive,,Ramona,CA,92065,USA,(760) 789-4583,,,,malanenewman@gmail.com,,40,Newman,Malane,,2/9/09,2/9/14,,,,0,0,0,0,0
-MOD,Mizuki Oda,"3-5-10 Tsukiji, Chuo-ko",,Tokyo,,,Japan,,,,,,,50,Oda,Mizuki,,2/16/10,2/16/15,yoshi artist,,,0,0,0,0,0
-MOE,Moe Nakamura,"3-5-10 Tsukiji, Chuo-ko",,Tokyo,,,Japan,,,,,,,50,Nakamura,Moe,,2/16/10,2/16/15,yoshi artist,,,0,0,0,0,0
-MOH,Mamoru Ohtake,"1-22-3 Azusawa, Itabashi-ku",,Tokyo,,,Japan,,,,,,,50,Ohtake,Mamoru,,11/20/09,11/20/14,yoshi artist,,,0,0,0,0,0
-MOI,Mamiko Ohashi,Room 302 Norwegian Wood Ishiyamadera,2/22/38,Ishiyamadera,,"OTSU-SHI,",Japan,,,,,,,50,Ohashi,Mamiko,,12/22/11,12/22/11,yoshi,,,0,0,0,0,0
-MPE,Marcella Peluffo,"via Panzeri, 5""",,Milano,,,Italy,,,,,marcella.peluffo@fastwebn,,35,Peluffo,Marcella,,9/13/04,9/13/09,,,,0,0,0,0,0
-MPG,Monika Pellkofer-Griesshammer,"Korzendorf, An des Schule 14""",,,,D-95491 Ah,Germany,,,,,MONI-DESIGN@t-online.de,,35,Pellkofer-Griesshamm,Monika,,4/23/08,4/23/13,,,,0,0,0,0,0
-MRL,Monica Ruiz Losa,c/Doctor Earles Veriat No.17 Puerta-B,CP 46360,Bunol,,VALENCIA,Spain,625077711,,,,mruizlosa@hotmail.com,,40,Monica Ruiz,Losa,,6/26/12,6/26/17,,,,0,0,0,0,0
-MSA,Masahiko Saga,"2-A Rex Tsubaki, Higashi-Minoeka-cho, Uz",,Kyoto,,,Japan,,,,,,,50,Saga,Masahiko,,3/2/10,3/2/15,yoshi artist,,,0,0,0,0,0
-MSE,Mary Sergeeva,191015 Syvrovsky av. 61-42,,Saint Petersburg,,,Russia,,,,,,,40,Sergeeva,Marie,,2/19/13,2/19/18,,,,0,0,0,0,0
-MSO,Michela Sorrentino,404 Musgrave Road,,Saltspring Island,BC,V8K 2W9,Canada,604-648-8459,,,,hermani@telus.net,,35,Sorrentino,Michela,,5/2/08,5/2/13,,,,0,0,0,0,0
-MSU,Minami Suzuki,"6-17-15 Kami-mizumoto-cho, Kodaira-shi""",,Tokyo,,,Japan,,,,,,,50,Suzuki,Minami,,1/12/10,1/12/15,yoshi artist,,,0,0,0,0,0
-MTA,Mulga the Artist,6 Kalmia Place,,Miranda,,NSW 2228,Australia,,,,,mulgasroom@gmail.com,,40,Moore,Joel,,7/3/12,7/3/17,paypal,,,0,0,0,0,0
-MYA,Mamoru Yamamoto,"705, 2194ban-1, Kita hassku-cho, Midori-",,Kanagawa Pref,,,Japan,,,,,,,50,Yamamoto,Mamoru,,12/10/09,12/10/14,yoshi artist,,,0,0,0,0,0
-MYU,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-MZA,Michel Zappy,"6606, Rue Drolet""",,Montreal,QC,H2S 2S8,Canada,,,,,michel.zappy@gmail.com,,35,Zappy,Michel,,12/3/07,12/3/12,,,,0,0,0,0,0
-NAG,Naginohi,"#1205, 6-2-21","Chihaya, Higashi-ku",Fukuoka-shi,,FUKUOAK PR,JAPAN,,,,,,,50,Murai,Mihoko,,12/9/10,12/9/15,yoshi,,,0,0,0,0,0
-NAH,Nanaha,,,,,,U.S.A.,,,,,,,50,,Nanaha,,3/9/11,3/9/11,,,,0,0,0,0,0
-NAN,Norisa Anderson,2141 Old Dollarton Rd.,,North Vancouver,BC,V7H 1W3,Canada,604-929-2618,,,,norisa@landesign.ca,,35,Anderson,Norisa,,7/23/03,7/23/09,,,,0,0,0,0,0
-NAR,Nina Arctander,"Austrevalen 6, """,,Fana,,5244,Norway,+44 (0)7507709186,,,,post@ninaarctander.com,,40,Arctander,Nina,,5/11/08,5/11/13,,,,0,0,0,0,0
-NAS,Neal Aspinall,1255 Martha Washington Dr,,Wauwatosh,WI,53213,USA,414-774-3808,,,,kaspinall@wi.rr.com,,45,Aspinall,Neal,,11/5/08,11/5/13,,,,0,0,0,0,0
-NBA,Natalia Bayduzha,Vetluzhskayast. 26-29,,Novosibirsk,,630056,Russia,(8909) 531-8582,,,,zigmund86@mail.ru,,40,Bayduzha,Natalia,,8/31/09,8/31/14,,,,0,0,0,0,0
-NBE,Nathalie Beauvois,Jose Ma. Montero 2840/501,,Montevideo,,11300,Uruguay,,,,,tanebeau@adinet.com.uy,,35,Beauvois,Nathalie,,9/20/04,9/20/09,,,,0,0,0,0,0
-NBO,Naomi Broudo,175 Willoughby St. Apt 16B,,Brooklyn,NY,11201,Canada,,,,,naomibroudo@gmail.com,,50,Broudo,Naomi,,3/10/10,3/10/15,,,,0,0,0,0,0
-NBR,Nicolas Craig,Hildenerstr.53,,Dusseldorf,,40597,Germany,,,,,n.briner@t-online.de,,40,Briner,Niklas,,2/21/08,2/21/13,,,,0,0,0,0,0
-NES,Neslihan Rawles,307 Rotherhithe str.,41 Harwoodpoint,London,,SE16 5HD,United Kingdom,0044 7411 096564,,,,neslihan@orchardsales.net,,40,Rawles,Neslihan,,4/14/09,4/14/14,,,,0,0,0,0,0
-NIK,Norie Ikegami,"1 Ishikawa-so 201 Kyojima, Sumida-ku""",,Tokyo,,,Japan,,,,,,,50,Ikegami,Norie,,11/11/09,11/11/14,yoshi artist,,,0,0,0,0,0
-NIL,Nikolai Larin,Hildenerstr.53,,Dusseldorf,,40597,Germany,,,,,,,40,Larin,Nikolai,,2/21/08,2/21/13,,,,0,0,0,0,0
-NIM,Natsuko Imai,"Sharuman 205, 5-21-7 Nishiogi-Kita""",,Suginami-Ku,To,,Japan,,,,,,,50,Imai,Natsuko,,10/25/09,10/25/14,yoshi artist,,,0,0,0,0,0
-NIN,Noriko Inoue,"1-10-15 Sekimachi-higashi, Nerima-ku, """,,Toyko,,,Japan,,,,,,,50,Inoue,Noriko,,11/24/09,11/24/14,yoshi artist,,,0,0,0,0,0
-NIT,Nana Itsuki,"505-65 Sano-cho, Higashi-omi0shi""",,Shiga Pref,,,Japan,,,,,,,50,Itsuki,Nana,,4/1/10,4/1/15,yoshi artist,,,0,0,0,0,0
-NJE,Neil Jeffery,"Altinsehir mah,  234.Sok.No37   """,,,Ni,16140,Turkey,0224 413 22 93,,,,beep-beep@sympatico.ca,,40,Jeffery,Neil,,4/14/09,4/14/14,,,,0,0,0,0,0
-NKA,Nanae Kawahara,6-9 Mitakedai,Aobaku,Yokohama 227 0047,,,Japan,,,,,nanae.kawahara@gmail.com,,40,Kawahara,Nanae,,4/10/12,4/10/17,Non Yoshi,,,0,0,0,0,0
-NKL,Nate Koehler,1618 Chadbourne AVenue,,Madison,WI,53726,U.S.A.,,,,,natekoehler@gmail.com,,40,Koehler,Nate,,11/28/11,11/28/16,,,,0,0,0,0,0
-NKO,Nanaho,#312 Minikam Mansion,2/2/07,"Nakane, Meguro-ku",,TOKYO,JAPAN,,,,,,,50,,Nanaho,,6/15/11,6/15/16,yoshi artist,,,0,0,0,0,0
-NOZ,Nozomi Inoue,8 Byatt Walk,,Hampton,,TW12 3XF,UK,,,,,nozomiinoue@gmail.com,,40,Inoue,Nozomi,,9/18/12,9/18/17,,,,0,0,0,0,0
-NRI,Nadia Richie Studio,ImageZoo,,,,,,info@imagezoo.com,,,,steph@stephaniecarter.com,,35,Richie,Nadia,,5/18/10,5/18/10,,,,0,0,0,0,0
-NSE,Nina Seven,"6715 Palatine Av, North""",,Seattle,WA,,USA,,,,,nina@ninasevenillustratio,,35,Seven,Nina,,4/9/08,4/9/13,,,,0,0,0,0,0
-NSQ,Nic Squirrell,10 the Cherry Orchard,,Hadlow TONBRIDGE,KE,TN110HU,UK,,,,,nicpp@squirrelldesigns.co.uk,,50,Squirrell,Nic,,2/16/12,2/16/17,,,,0,0,0,0,0
-NTI,Natsumi Tsuchida,"#1110 Jay Tower Nishi-ooi, 1-1-2",,"Nishi-ooi, Shinagawa",,TOKYO,JAPAN,,,,,,,50,Natsumi,Tsuchida,,12/30/10,12/30/15,yoshi,,,0,0,0,0,0
-NTS,Nobuhiro Tsujimura,"1-2-10 Shimouma, Setagaya-ku""",,Tokyo,,,Japan,,,,,,,50,Tsujimura,Nobuhiro,,11/30/09,11/30/14,yoshi artist,,,0,0,0,0,0
-NYB,Natalya Bronnikova,"7, Makeev Street",Apt. 28,Miass Chelyabinsk re,,459320,Russia,,,,,,,40,Bronnikova,Natalya,,9/13/10,9/13/15,,,,0,0,0,0,0
-OLA,Olga Lannik,"Ap. 152, Korolyova St.""",,Odessa,,,Ukraine,,,,,svan-87@mail.ru,,40,Lannik,Olga,,10/7/08,10/7/13,,,,0,0,0,0,0
-OMO,Olivia Moss,1 Welbeck Avenue,,Chadderton,Ol,OL99PD,UK,,,,,oliviamoss@hotmail.co.uk,,40,Moss,Olivia,,11/10/08,11/10/13,,,,0,0,0,0,0
-OMU,Ovambo,Elisabeth-Heimpel-Weg 21,,G_ttingen,,D-37085,Germany,,,,,Mundtmundt@aol.com,,35,Mundt,Heike,,5/26/05,5/26/09,,,,0,0,0,0,0
-ONI,Onion,"201, 66-1 Ueki, Kamakura-shi""",,Kanagawa Pref,,,Japan,,,,,,,50,,Onion,,10/23/09,10/23/14,yoshi artist,,,0,0,0,0,0
-OOP,Olivier Opron,,,,,,,,,,,oopron@hotmail.com,,35,Opron,Olivier,,8/4/03,8/4/09,,,,0,0,0,0,0
-OTS,Oleksiy Tsuper,30A 125 Bereznyakovskaya St,,Kyiv,,,Ukraine,3.80955E+11,,,,,,40,Tsuper,Alex,,10/5/10,10/5/15,,,,0,0,0,0,0
-OVI,Oreste Vinciguerra,Rosenstr. 8,,,,6010 Krien,Switzerland,041 3400520,,,,,,35,Vinciguerra,Oreste,,8/4/04,8/4/09,,,,0,0,0,0,0
-PAD,Patrick Marris,57 Gipps Street,,Collingwood,Vi,3066,Australia,,,,,patrick.marris@theartscen,,40,Marris,Patrick,,2/17/09,2/17/14,,,,0,0,0,0,0
-PAF,Pedro Afonso,"Praceta da Espargueira, Casa das Pedras",,Manique,Al,2645-437,Portugal,,,,,pedrafonso@sapo.pt,,35,Afonso,Pedro,,1/19/05,1/19/09,,,,0,0,0,0,0
-PAL,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-PBU,Paulo Buchinho,"PR. D. Afonso V, n4, 5 ESQ""",,,,2615-357,Portugal,,,,,paulo@paulobuchinho.com,,35,Buchinho,Paulo,,4/9/09,4/9/14,,,,0,0,0,0,0
-PDE,Dilek Peker,"Via F Cilea, No 7""",,Scala C/2,La,,Italy,,,,,info@dpiudesign.com,,40,Peker,Dilek,,7/9/10,7/9/15,,,,0,0,0,0,0
-PFO,Pete Forbes,"21 Panorama Dr., Forest Hill""",,,Vi,3131,Australia,,,,,petecforbes@hotmail.com,,40,Forbes,Pete,,7/28/08,7/28/13,,,,0,0,0,0,0
-PGI,Paul Gilligan,"160 Baldwin St., Apt. 607""",,Toronto,ON,M5T 1L8,Canada,416-593-5559,,,,gilligan@sympatico.ca,,35,Gilligan,Paul,,7/30/03,7/30/09,,,,0,0,0,0,0
-PGU,Paul Guzzo,191 Bellvue Ave #C-5,,Montclair,NJ,7043,USA,,,,,cogeliognide@hotmail.com,,40,Guzzo,Paul,,9/18/09,9/18/14,,,,0,0,0,0,0
-PHF,P & H,138 NE 57th,,Seattle,WA,98105,U.S.A.,,,,,,,40,Holderfield,Patrick,,4/12/12,4/12/17,RM & RF,,,0,0,0,0,0
-PIX,Pixmann,"#501, Samsung Parkvill, 39-1, Euljiro 5",,Seoul,,100-195,Korea,,,,,nicole@pixmann.com,,50,,Pixmann,,7/1/08,7/1/13,,,,0,0,0,0,0
-PMO,Pau Molas,"C/Ultonia n. 8, at-1a.",,17002,,GIRONA,Spain,,,,,lus.pau@gmail.com,,40,Molas,Pau,,8/23/23,1/7/13,,,,0,0,0,0,0
-PPE,Priscilla Peeters,Dulfstraat 12,2880 Bornem,,,,Belgium,,32479784188,,,pris.peeters@gmail.com,,50,Peeters,Priscilla,,9/17/12,9/17/17,paypal,,,0,0,0,0,0
-PRE,Poppy & Red,28 A Lad Lane,,Dublin 2,,,IRELAND,,,,,,,50,Paula McGloin,Anna Deegan,,2/14/12,2/14/17,,,,0,0,0,0,0
-PSC,Phil Scroggs,9253 12th Avenue NW,,Seattle,WA,,USA,,,,,,,25,Scroggs,Phil,,6/1/05,6/1/09,"after expiry, 25%",,,0,0,0,0,0
-PSH,Paul Schexnayder,664 E. Main Street,,New Iberia,LA,70560,U.S.A.,,,,,paul@schex.com,,50,Schexnayder,Paul,,9/12/11,9/12/16,pay by paypal from now on 12/2016,,,0,0,0,0,0
-PST,Petra Stefankova,55 Jeffreys Rd,,,Lo,SW4 6QD,UK,,,,,info@petrastefankova.com,,40,Stefankova,Petra,,9/23/09,9/23/14,,,,0,0,0,0,0
-PSU,Petri Suni,Luotisikatu 6 E 33,,Helsinki,,160,FINLAND,,,,,,,40,Suni,Petri,,9/21/12,9/21/17,,,,0,0,0,0,0
-PVE,Preeti Verma,"Flat No.10, 4th Floor, Toshiba Apts, S.V","Main Avenue Road,",Santa Cruz West,,Mumbai,india,,,,,,,50,Verma,Preeti,,4/12/12,4/12/17,,,,0,0,0,0,0
-PZA,Paola Zakimi,Aguas Buenos S/N,,Villa Giardino,Co,5176,Argentina,(54354) 849-7571,,,,pzakimi@gmail.com,,50,Zakimi,Paola,,2/2/09,2/2/14,,,,0,0,0,0,0
-RAS,Ryan Retiro Ashburn,2825 N. Mayfield Avenue,,San Bernardino,CA,92405,U.S.A.,,,,,,,0,Ashburn,Ryan Retiro,,4/13/12,4/13/17,,,,0,0,0,0,0
-RBA,Rocco Baviera,48 Pleasant Avenue,,Hamilton,ON,L9C 4M7,Canada,(905) 526-9326,,,,rocco.baviera@sympatico.c,,40,Baviera,Rocco,,2/9/09,2/9/14,,,,0,0,0,0,0
-RBE,Raymond Betancourt,"1475 Geneva Loop, Apt. 11B""",,Brooklyn,NY,11239,USA,,,,,raymondjr@fastmail.fm,,35,Betancourt,Raymond,,8/24/03,8/24/09,,,,0,0,0,0,0
-RBR,Russell Brocklehurst,74 Oxenden Park Drive,,Herne Bay,Ke,CT68UD,UK,,,,,studio@mrbrocklehurst.com,,40,Brocklehurst,Russell,,3/30/09,3/30/14,,,,0,0,0,0,0
-RCA,Ronnie Casson,1075 Manzanita Dr.,,Pacifica,CA,94044,USA,,,,,goodyfinch@gmail.com,,40,Casson,Ronnie,,11/7/08,11/7/13,,,,0,0,0,0,0
-RCO,Roberta Cottam,6946 Canada way,,Burnaby,BC,V5E 3R5,Canada,,,,,roberta.c@telus.net,,35,Cottam,Roberta,,5/12/08,5/12/13,,,,0,0,0,0,0
-RCS,Rachel Stoleru,Ha-Nesher St. 86/1,,Ra'anana,,,Israel,,,,,,,40,Stoleru-Haim,Rachel,,2/9/14,2/9/19,,,,0,0,0,0,0
-RGA,Rosa Garcia,"Clemente Gosalvez 26, 4A""",,Torrevieja,Al,3180,Spain,34 96 670 27 01,,,,laberinros@gmail.com,,35,Garcia,Rosa,,4/23/06,4/23/09,,,,0,0,0,0,0
-RHA,Reese Harper,ImageZoo,,,,,,,,,,,,35,Harper,Reese,,5/18/10,5/18/10,,,,0,0,0,0,0
-RHU,Rosy Illustrations,2104-4625 Valley Drive,,Vancouver,BC,V6J 5L7,Canada,778-883-6189,,,,rosy@roselinahung.com,,50,Hung,Roselina,,6/23/08,6/23/13,,,,0,0,0,0,0
-RIC,Ricow,2-1-11 Kasuga-cho,Nerima-ku,Tokyo,,,Japan,,,,,,,50,Uematsu,Toshimitsh,,11/9/10,11/9/15,yoshi artist,,,0,0,0,0,0
-RIH,Riyoco Hanasawa,"c/o Ozplanning, 2-7-2 Sakai",Musashino-shi,Tokyo,,,Japan,,,,,,,50,Hanasawa,Riyoco,,9/28/10,9/28/15,yoshi artist,,,0,0,0,0,0
-RME,Renia Metallinou,Paralia Markopoulou-Oropou Nea Palatia,"Oropos, Attiki 19015 p.o. box 4708",,,,Greece,,,,,reniamet@yahoo.gr,,40,Metallinou,Renia,,7/5/12,7/5/17,paypal,,,0,0,0,0,0
-RMI,Ray Medici,307 Pembroke St,,Pembroke,NH,,U.S.A.,,,,,,,40,Medici,Raymond,,10/26/10,10/26/15,,,,0,0,0,0,0
-ROC,Rob Colvin,262 S. Fox Circle,,Morgan,UT,84050,USA,801-829-4181,,,,robcolvin@mstar2.net,,40,Colvin,Rob,,9/23/04,9/23/09,,,,0,0,0,0,0
-ROM,Roman Beskrovny,"Biryulyovskaya St, 44/6-170""",,Moscow,,,Russia,,,,,nagual.wind@gmail.com,,40,Beskrovny,Roman,,11/4/08,11/4/13,,,,0,0,0,0,0
-RSH,Ruchi Shah,"Apurva Apartments, No.14 First Floor",,"Napean Sea Rd, Mukes",,MUMBAI,India,,,,,,,40,Shah,Ruchi,,2/19/13,2/19/18,,,,0,0,0,0,0
-RST,Rigel Stuhmiller,28 Parnassus Rd,,Berkeley,CA,94708,USA,415-867-3846,,,,rigel_stuhmiller@yahoo.co,,40,Stuhmiller,Rigel,,1/29/09,1/29/14,,,,0,0,0,0,0
-RTA,Ryan Tandya,JL. Kalmpis Anom II/12,H30-A Surabaya 60117,East Java,,,Indonesia,,,,,ryantandya@yahoo.com,,0,Tandya,Ryan,,3/13/12,3/13/17,paypal,,,0,0,0,0,0
-RTO,Rutsu Tobii,"401, 2-39-7 Yoyogi, Shibuya-ku""",,Tokyo,,,Japan,,,,,,,50,Tobii,Rutsu,,1/29/10,1/29/15,yoshi artist,,,0,0,0,0,0
-RTR,Ruediger Trebels,Brehmstrasse 81,,Dusseldorf,,40239,Germany,,,,,kontakt@ruediger-trebels.de,,25,Trebels,Ruediger,,3/8/04,3/8/09,,,,0,0,0,0,0
-RUF,Rufous,15786-92B Avenue,,Surrey,BC,V4N 3B2,Canada,604-582-5802,,,,deweerd@shaw.ca,,40,DeWeerd,Jeff,,7/22/10,7/22/15,,,,0,0,0,0,0
-RWI,Robert Windauer,"90 Corona St., #408",,Denver,CO,80218,U.S.A.,,,,,,,40,Windauer,Robert,,7/12/12,7/12/12,check,,,0,0,0,0,0
-RWU,Ricky Wu,"Flat 1, 4/F, Shun Hong House, Shun Shi C",,Kwan Tong,,,Hong Kong,,,,,whk288@gmail.com,,40,Wu,Ricky,,11/5/08,11/5/13,,,,0,0,0,0,0
-RXH,Roxana Habasescu,Str. Balantg Nr. 16 A9 AP 13,,Timisoara,,COD 300737,Romania,,,,,roxana_habasescu@yahoo.co,,40,Habasescu,Roxana,,11/5/08,11/5/13,,,,0,0,0,0,0
-RYA,Rie Yamamoto,3-13-11 Ichioka minato-ku,,Osaka-shi,,OSAKA-FU,JAPAN,,,,,,,50,Yamamoto,Rie,,2/15/11,2/15/16,nonyoshi,,,0,0,0,0,0
-RYI,Royji Nakajima,"1-61-27 218 Mikuni-honmachi, Yodogawa-ku",,Oksa,,,Japan,,,,,,,50,Nakajima,Royji,,11/25/09,11/25/14,yoshi artist,,,0,0,0,0,0
-SAF,Silvia Falqueto,"Rua Machado de Assis, no 502, B. Santa C",,Cuiaba,MT,CEP:78068-,Brazil,,,,,silvinh@gmail.com,,40,Falqueto,Silvia,,8/20/08,8/20/13,,,,0,0,0,0,0
-SAJ,Sahar Ajami,"No1, Blook 11, Koohsar St-Isar St, Farah",,Tehran,,19817-6497,Iran,-22083891,,,,sahar7a@yahoo.com,,40,Ajami,Sahar,,4/11/08,4/11/13,,,,0,0,0,0,0
-SAS,Sean Ashby,713 Banner Ave.,,Edmond,OK,73013,USA,405-285-2536,,,,sean_ashby@att.net,,40,Ashby,Sean,,12/8/08,12/8/13,,,,0,0,0,0,0
-SCA,Stephanie Carter,ImageZoo,,,,,,,,,,steph@stephaniecarter.com,,35,Carter,Stephanie,,5/18/10,5/18/10,,,,0,0,0,0,0
-SDU,Sofya Dushkina,"Pravdi 3, #8""",,Novosibirsk,,,Russia,,,,,dusofa@gmail.com,,40,Dushkina,Sofya,,10/9/08,10/9/13,,,,0,0,0,0,0
-SFA,Sylvain Fajner,49 rue du Bien-Faire,,Brussels,,1170,Belgium,,,,,sylvain.fajner@mobistar.be,,40,Fajner,Sylvain,,5/18/08,5/18/13,,,,0,0,0,0,0
-SFI,Sandi Fitzgerald,#2-432 Winona Dr.,,Toronto,ON,M6C 3T7,Canada,416-658-1872,,,,sandi.fitzg@gmail.com,,40,Fitzgerald,Sandi,,12/10/08,12/10/13,,,,0,0,0,0,0
-SFO,Stock Foundry,81 Settlers Way RR4,,Kemptville,On,K0G1J0,Canada,,,,,grant@artzooks.com,,50,Foundry,Stock,,3/8/10,3/8/13,,,,0,0,0,0,0
-SGA,Saya Gansai,4-77 Yurigaoka-nishi,,"Nabari-shi,",,MIE PREF.,Japan,,,,,,,50,Gansai,Saya,,2/20/10,2/20/15,yoshi artist,,,0,0,0,0,0
-SHA,Sven Hauth,Zur Schaferheide 1,,Schulp,,24589,Germany,,,,,sven@pixeldoggy.com,,35,Hauth,Sven,,2/23/04,2/23/09,,,,0,0,0,0,0
-SHE,Sophy Henn,113 High Street,Lindfield,W.Sussex,,RH16 2HR,UK,,,,,,,40,Henn,Sophy,,7/3/12,7/3/17,,,,0,0,0,0,0
-SHI,SHIZUKA,"1-19-2 Hida-Asano-Umenoki- Cho, Toki-Cho",,GifuPref.,,,Japan,,,,,,,50,,SHIZUKA,,3/9/10,3/9/15,yoshi artist,,,0,0,0,0,0
-SIW,Sumiyo Iwaguchi,"Rex Kawasaki 1104, 27-7 Nissin-cho, Kawa",,Kanagawa Pref,,,Japan,,,,,,,50,Iwaguchi,Sumiyo,,10/27/09,10/27/14,yoshi artist,,,0,0,0,0,0
-SKA,Satoru Kawata,"3366-4 Akami-cho, Sano-shi""",,Tochigi Pref,,,Japan,,,,,,,50,Kawata,Satoru,,11/13/09,11/13/14,yoshi artist,,,0,0,0,0,0
-SKI,Sheila Kinakin,#52-1195 Falcon Drive,,Coquitlam,BC,V3E 2H1,Canada,604-941-3804,,,,skinakin@telus.net,,35,Kinakin,Sheila,,12/19/02,12/19/09,,,,0,0,0,0,0
-SKR,Sabine Krauss,"Sudstrasse 43, 48153 """,,Muenster,,,Germany,,,,,sk@art-grafik.de,,35,Krauss,Sabine,,4/22/09,4/22/14,,,,0,0,0,0,0
-SLU,Shane Luskie,43 Waterloo Crescent,,St Kilda,Vi,3182,Australia,61 0405049817,,,,shaneluskie@gmail.com,,40,Luskie,Shane,,2/9/09,2/9/14,,,,0,0,0,0,0
-SMA,Stephen May,"36 The Oval, Sidcup""",,Kent,,DA15 9ES,UK,,,,,webbrowser@stephenmaygrap,,35,May,Stephen,,5/2/08,5/2/13,,,,0,0,0,0,0
-SME,Soizick Meister,3750 West 13th Avenue,,Vancouver,BC,V6R 2S6,Canada,,,,,info@soizimage.com,,40,Meister,Soizick,,5/6/07,5/6/12,,,,0,0,0,0,0
-SMI,Frank Adams,RH1 House,8-10 Spin St.,Cape Town,80,,South Africa,,,,,hello@studiomuti.co.za,,40,Muti,Studio,,5/31/12,5/31/17,paypal,,,0,0,0,0,0
-SMO,Sadahito Mori,"55-3 Wakakusa-cho, Minami-ku, Nagoya-shi",,Aich Pref,,,Japan,,,,,,,50,Mori,Sadahito,,2/10/10,2/10/15,yoshi artist,,,0,0,0,0,0
-SMU,Saori Murao,1-19 Aza-Sakonbori,"6-Chome, Wakabayashi-Ku",Sendai-Shi,,MIYAGI PRE,Japan,,,,,,,50,Murao,Saori,,9/21/11,9/21/16,yoshi,,,0,0,0,0,0
-SNA,Sandra Nascimento,"Avenida Doutor, Moreira de Sousa, 55, BL",,Pedroso,,,Portugal,,,,,,,35,Nascimento,Sandra,,10/7/05,10/7/09,,,,0,0,0,0,0
-SOU,Souki,25-16 Katsura-okamachi,Otaru-shi,Hokkaido,,,Japan,,,,,,,50,,Souki,,8/20/10,8/20/15,yoshi artist,,,0,0,0,0,0
-SPE,Susan Pemberton,"179 Eagle Street, Apt. 3R""",,Brooklyn,NY,11222,USA,,,,,sue@blumien.com,,25,Pemberton,Susan,,10/6/05,10/6/09,,,,0,0,0,0,0
-SPS,Spark Studio,ImageZoo,,,,,,,,,,,,35,Studio,Spark,,5/18/10,5/18/10,,,,0,0,0,0,0
-SRO,Studio Robin,"5-6-5 Seiryo-dai Tarumi-ku, Kobe-shi",,Hyogo Pref,,,Japan,,,,,,,50,Taira,Keita,,10/25/10,10/25/15,yoshi artist,,,0,0,0,0,0
-SRT,Shien-Ru Tsao,"242 Tenth Street, Studio 2F""",,Jersey City,NJ,7302,USA,(917) 568-8410,,,,srtsao@gmail.com,,40,Tsao,Shien-Ru,,9/24/09,9/24/14,,,,0,0,0,0,0
-SSH,Sara Showalter,230 Reichling Avenue,,Pacifica,CA,94044,U.S.A.,,,,,hello@sarashowalter.com,,40,Showalter,Sara,,8/21/12,8/21/17,,,,0,0,0,0,0
-STA,Stamptout,26 Hyde Green,,"Beaconsfield, Bucks",,HP9 2E4,UK,,,,,,,40,Stamptout,,,6/7/12,6/7/17,,,,0,0,0,0,0
-STE,Satoco,#2103,"1-8-5, Tenma, Kita-ku",Osaka-shi,,OSAKA PREF,Japan,,,,,,,50,Terayama,Satoko,,9/12/11,9/12/16,yoshi,,,0,0,0,0,0
-STO,Stefano Tognetti,"V.Gadames, N3""",,Milano,,,Italy,,,,,stefanotognetti@fastwebne,,35,Tognetti,Stefano,,5/6/04,5/6/09,,,,0,0,0,0,0
-SUL,Suli,"Room 403, Block 3, No. 75 Liao Yang Xi R",,Qingdao City,Sh,266000,P.R. China,,,,,cartoon@VRsky.com,,35,,Suli,,1/5/04,1/5/09,,,,0,0,0,0,0
-SVE,Sushimix,Rua Leite De Vasconcelos,85 1 DTO,1170-200 Lisboa,,,Portugal,,,,,,,40,Veiga,Susana,,2/16/12,2/16/17,,,,0,0,0,0,0
-SWE,Scott Weichert,PO Box 2231,,Grants Pass,OR,97528,USA,541.761.3564,,,,scott@weichertcreative.co,,35,Weichert,Scott,,5/27/05,5/27/09,,,,0,0,0,0,0
-SWI,Scott Wilson,74 Stanley Point Road,,Devonport,Au,624,NZ,,,,,scott.wilson@saatchi.co.n,,40,Wilson,Scott,,7/21/09,7/21/14,,,,0,0,0,0,0
-SYA,Stealth,"3-13-1212, 1-chrome, Asa-minami-ku",Hiroshima-shi,Hiroshima Pref,,,Japan,,,,,,,50,Yanai,Satomi,,8/24/10,8/24/15,yoshi artist,,,0,0,0,0,0
-SYO,Saki Yoshida,1-5-3 Shirhane-cho,,"Mizuho-ku, Nagoya-sh",Ai,,Japan,,,,,,,50,Yoshida,Saki,,2/6/10,2/6/15,yoshi artist,,,0,0,0,0,0
-SZO,Studio Zoo,ImageZoo,,,,,,,,,,,,35,Zoo,Studio,,5/18/10,5/18/10,,,,0,0,0,0,0
-TCO,Teresanne Cossetta,1735 Split Fork Dr.,,Oldsmar,FL,34677,USA,727-278-3359,,,,art@teresanne.com,,40,Cossetta,Teresanne,,2/20/09,2/20/14,,,,0,0,0,0,0
-TEA,TEA,,,,,,U.S.A.,,,,,,,40,Hennix,Tove,,8/12/12,8/12/12,,,,0,0,0,0,0
-TFR,Tanya Francis,705 Hooke Place,,Edmonton,AB,T5A 5H4,Canada,780-634-9298,,,,tfdaycreative@gmail.com,,25,Francis-Day,Tanya,,12/13/02,12/13/09,,,,0,0,0,0,0
-TGR,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-THA,Tomoko Hashimoto,306 Tokan-Harajyuku-castale 2-30-5,Jinguu-mae,Tokyo,,,Japan,,,,,,,50,Hashimoto,Tomoko,,9/7/10,9/7/15,yoshi artist,,,0,0,0,0,0
-THE,Tomas Hernandez,"Cedros sur 63, Col. Fco. Naranjo CP 6433",,Monterrey,Nu,,Mexico,,,,,tomashc@yahoo.com,,35,Hernandez,Tomas,,5/6/04,5/6/09,,,,0,0,0,0,0
-THU,Thomas Thu Hurlimann,Albisstrasse 19a,,Baar,,CH-6340,Switzerland,,,,,thu@ecliptic.ch,,35,Thu Hurlimann,Thomas,,9/11/03,9/11/09,,,,0,0,0,0,0
-TIR,Tama-iris,Repubica de Siria 6470,,C.P. 3000,Sa,,Argentina,54-0342-4697064,,,,tamarafanta@gmail.com,,40,Fanta,Tamara,,12/12/08,12/12/13,,,,0,0,0,0,0
-TJO,Tomas Jonsson,"Furusundsguten, 14SE-115 37""",,Stockholm,,,Sweden,,,,,toj@telia.com,,25,Jönsson,Tomas,,9/18/03,9/18/09,,,,0,0,0,0,0
-TJU,Tomasz Junik,Mikolajecka 13,,60-401 Poznan,,,Poland,48604185264,,,,tomek.jeden@wp.pl,,40,Junik,Tomasz,,5/14/10,5/14/15,,,,0,0,0,0,0
-TKN,Tom Knight,10 Windsor Road,,West Mersea,ES,C05 8ED,UK,,,,,,,50,Knight,Tom,,9/11/11,9/11/16,,,,0,0,0,0,0
-TKO,Taeko Koba,2-21 Wakabadai-nishi,Kasuga-shi,Fukuoka Pref,,,Japan,,,,,,,50,Koba,Taeko,,11/29/10,11/29/15,yoshi artist,,,0,0,0,0,0
-TKU,Takuya Kuriyama,"2-18-14, Higashi-Nogawa""",,Komae-Shi,To,,Japan,,,,,,,50,Kuriyama,Takuya,,2/23/10,2/23/15,yoshi artist,,,0,0,0,0,0
-TMU,Mushuko Takabe,2/10/04,"Matsugaoka, Chigasaki-shi",Kangawa Pref.,,,Japan,,,,,,,50,Takabe,Mushuko,,6/15/11,6/15/16,yoshi artist,,,0,0,0,0,0
-TMY,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-TOB,Tibori,"207, Fudo Hrights, 4-4-2""",,"Shimo-Meguro, Meguro",To,,Japan,,,,,,,50,Komatsubara,Yuki,,4/21/10,4/21/15,yoshi artist,,,0,0,0,0,0
-TOH,Tove Hennix,Ostgotagatan 83,11664,Stockholm,,,Sweden,,,,,,,40,Hennix,Tove,,8/14/12,8/14/12,,,,0,0,0,0,0
-TOK,Tetsuro Okabe,"Garesia-asaka 803, 4-20-25""",,"Hizaori-cho, Asaka-s",Sa,,Japan,,,,,,,50,Okabe,Tetsuro,,11/16/09,11/16/14,yoshi artist,,,0,0,0,0,0
-TOM,Tomomi Matsuhira,"605, 6-23-18 Sagami-ohno""",,Sagamihara-shi,Ka,,Japan,,,,,,,50,Matsuhira,Tomomi,,2/23/10,2/23/15,yoshi artist,,,0,0,0,0,0
-TOO,Tooco,Paraguay 5225 7o D,,Capital Federal,,1425,Argentina,5.41E+11,,,,info@tooco.com.ar,,40,Miranda,Francisco,,12/12/08,12/12/13,,,,0,0,0,0,0
-TOR,Toru Sasaki,29/2178 Kanai,Shibukawa-shi,Gunma Pref,,,Japan,,,,,,,50,Sasaki,Toru,,3/27/10,3/27/15,yoshi artist,,,0,0,0,0,0
-TOW,Teddy Owens,4068 Cambridge St.,,Burnaby,BC,V5C 1G7,Canada,,,,,a_rogers@telus.net,,50,Rogers,Adam,,5/18/10,5/18/10,,,,0,0,0,0,0
-TRI,Taren Riley,ImageZoo,,,,,,,,,,steph@stephaniecarter.com,,35,Riley,Taren,,5/18/10,5/18/10,,,,0,0,0,0,0
-TSO,Taylor Southerland,30 Rosebury Court,,Cartersvlle,GA,30120,U.S.A.,,770-386-0853,,,,,40,Southerland,Taylor,,4/26/12,4/26/17,,,,0,0,0,0,0
-TUE,Takashi Ueno,2-10-1 Tsuruhara,,Izumisano-shi,Os,,Japan,,,,,,,50,Ueno,Takashi,,10/19/09,10/19/14,yoshi artist,,,0,0,0,0,0
-TWM,Teresa Woo-Murray,2119 Hollister Terrace,,Glendale,CA,91206,USA,,,,,woobabie@sbcglobal.net,,40,Woo-Murray,Teresa,,6/12/09,6/12/14,,,,0,0,0,0,0
-TWO,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-TYA,Yagi Tomoko,"201, 2-2-13 Motonakayama""",,Funabashi-shi,Ch,,Japan,,,,,,,50,Tomoko,Yagi,,11/9/09,11/9/14,yoshi artist,,,0,0,0,0,0
-UBR,Ursula Bruski,Geibelstrasse 13,,Munchen,,81679,Germany,,,,,schumacher.bruski@t-onlin,,35,Bruski,Ursula,,2/23/04,2/23/09,,,,0,0,0,0,0
-VCR,Valentina Crespo,1470 Plzarrost,,Coral Gables,FL,33134-3162,USA,(305) 205-2217,,,,valentina@kawaiiuniverse.com,,40,Crespo,Valentina,,7/21/09,7/21/14,,,,0,0,0,0,0
-VGA,VectorGal,304-160 Argyle Ave,,Ottawa,ON,K2P 0N2,Canada,,,,,vectorgal@hotmail.com,,35,Hutton,Tracy,,7/21/06,7/21/09,,,,0,0,0,0,0
-VGO,na,,,,,,U.S.A.,,,,,,,0,,na,,10/7/10,10/7/10,,,,0,0,0,0,0
-VKU,Vinca Kumala,"JI. Semalang Indah 1/9 R-20, Wisma Mukti",,Surabaya,Ea,60117,Indonesia,(6231) 599-5691,,,,vincakumala@gmail.com,,40,Kumala,Vinca,,2/24/09,2/24/14,,,,0,0,0,0,0
-VMO,Visual Mozart,ImageZoo,,,,,,,,,,info@imagezoo.com,,35,Mozart,Visual,,5/18/10,5/18/10,,,,0,0,0,0,0
-VSA,Vika Sabo,17168 Newhope St.,Apt. 230,Fountain Valley,CA,92708,U.S.A.,,,,,vika@vikasabophoto.com,,40,Sabo,Vika,,6/2/13,6/2/13,,,,0,0,0,0,0
-VTA,Venki,"BF-2, Sterling Sarovar, Kosseri Lane, Po",,"Edappallu, Kochi-682",Ke,,India,,,,,venkiart@gmail.com,,25,Venkitachalam,Talath K.,,8/16/07,8/16/12,as of 08/16/12 25%,,,0,0,0,0,0
-VVA,Vance Vasu,846 Cobble Cove Lane,,Sacramento,CA,95831,USA,919-399-8689,,,,vancevasu@comcast.net,,25,Vasu,Vance,,9/22/06,9/22/11,,,,0,0,0,0,0
-VWO,Vinicky,The Annexe,43 Belmont St.,Brighton,,BN14HN,UK,,,,,,,40,Woodgate,Vicky,,11/22/11,11/22/16,,,,0,0,0,0,0
-WBR,Lily Ashbury,Imagezoo,,,,,Canada,,,,,,,35,Ashbury,Lily,,5/18/10,5/18/10,,,,0,0,0,0,0
-WCH,Wendy Chan,1726 70th St,,Brooklyn,NY,11204,USA,(917) 922-9663,,,,missjellypus@gmail.com,,40,Chan,Wendy,,2/5/09,2/5/14,,,,0,0,0,0,0
-WDR,Walter Drood,147 Riverside Cl. SE,,Calgary,AB,T2C 3N4,Canada,,,,,whamondd@shaw.ca,,40,Whamond,Dave,,8/8/08,8/8/13,Birch,,,0,0,0,0,0
-WHE,Wolfgang Herzig,Riesweg 42,,Essen,,D-45134,Germany,,,,,wolfgangherzig@t-online.d,,35,Herzig,Wolfgang,,5/1/04,5/1/09,,,,0,0,0,0,0
-WSA,Wako Sakurai,"Mezon Funami 301, 4-9-13 Ogikubo""",,Suginami-ku,To,,Japan,,,,,,,50,Sakurai,Wako,,11/2/09,11/2/14,yoshi artist,,,0,0,0,0,0
-YAN,Green Papaya Studio,"E3-3-42 Permai Villa, Punchong Permai, B",,Punchong,Se,47100,Malaysia,6016 2287912,,,,"yang@lotusdesign.com, mol",,40,Chin,Lim Tgo,,9/18/06,9/18/09,,,,0,0,0,0,0
-YBA,Yoshimi Baba,"202, 4-7-12 Takatono",Asahi-ku,Osaka Pref,,,Japan,,,,,,,50,Yoshimi,Baba,,9/7/10,9/7/10,yoshi artist,,,0,0,0,0,0
-YDR,Yulia Drobova,KV.12,,D.40,C-,Tashkent,Uzbekistan,,,,,yulia.drobova@gmail.com,,40,Drobova,Yulia,,8/6/08,8/6/13,,,,0,0,0,0,0
-YHO,Yuri Horikawa,"Matsunoki Heights 103, 5-14-7 Matsubara""",,Setagaya-ku,To,,Japan,,,,,,,50,Horikawa,Yuri,,10/26/09,10/26/14,yoshi artist,,,0,0,0,0,0
-YIM,Yumi Imai,"#405, 2-12-3, Dobashi, Miyamae-ku,",,"Kawasaki-shi,",,KANAGAWA P,Japan,,,,,,,50,Yumi,Imai,,12/20/10,12/20/15,yoshi,,,0,0,0,0,0
-YIW,Yumiko Iwasaki,"1-49-16 Karakida, Tama-shi",,Tokyo,,,Japan,,,,,,,50,Iwasaki,Yumiko,,3/30/10,3/30/15,yoshi artist,,,0,0,0,0,0
-YJA,Yenty Jap,Jl. Palang Merah 112D,,Medan,Su,20112,Indonesia,,,,,yenty.jap@gmail.com,,40,Jap,Yenty,,5/14/09,5/14/14,,,,0,0,0,0,0
-YKA,Yosuke,2-7-10 Uehara,,"Shimizu-ku, Shizuoka",Sh,,Japan,,,,,,,50,,Yosuke,,2/11/10,8/25/10,yoshi artist,,,0,0,0,0,0
-YKO,Yulia Koryakina,"kv. 102, d. 50, ul.""",,40 let Oktyabrya,Ek,620143,Russia,(343) 368-9522,,,,korula7@mail.ru,,40,Koryakina,Yulia,,8/23/09,8/23/14,,,,0,0,0,0,0
-YLB,Yann Le Bec,17B Bethune Road,,London,,N16 5DA,UK,+44 7943214982,,,,yannlebec@yahoo.fr,,40,Le Bec,Yann,,11/17/08,11/17/13,,,,0,0,0,0,0
-YMA,Yuki Maruyama,"102, 2-30-17 Nakamachi""",,Meguro-ku,To,,Japan,,,,,,,50,Maruyama,Yuki,,11/16/09,11/16/14,yoshi artist,,,0,0,0,0,0
-YMO,Yuki Mori,"102 Linos-bankan, 12-7Shiratori-dai, Aob",Yokohama-shi,Kanagawa Pref,,,Japan,,,,,,,50,Mori,Yuki,,10/22/10,10/22/15,yoshi artist,,,0,0,0,0,0
-YNA,Yoko Nakamura,76-9 Higashi-hachiman,Oita-shi,Oita Pref,,,Japan,,,,,,,50,Nakamura,Yoko,,9/22/10,9/22/15,yoshi artist,,,0,0,0,0,0
-YOK,Yoko Okubo,3-5-37 Omachi,,Kamakura-shi,Ka,,Japan,,,,,,,50,Okubo,Yoko,,4/8/10,4/8/15,yoshi artist,,,0,0,0,0,0
-YTA,Yu Takahashi,"108, 2-9-12 Miyamae-daira",,Miyamae-ku Kawasaki-,Ka,,Japan,,,,,,,50,Takahashi,Yu,,10/23/09,10/23/15,yoshi artist,,,0,0,0,0,0
-YUN,Yun,"306, 1-12-18 Mizumoto",,Katsushika-ku,To,,Japan,,,,,,,50,Uchida,Yumo,,3/13/10,3/13/15,yoshi artist,,,0,0,0,0,0
-YWA,Yuriko Wakayama,"Greyhouse 201, 2-6-1""",,"Sakura-josui, Setaga",To,,Japan,,,,,,,50,Wakayama,Yuriko,,3/11/10,3/11/15,yoshi artist,,,0,0,0,0,0
-YYO,Yuka Yonemasu,A2-209 3-1 Tsukumodai,,Suita-shi,Os,,Japan,,,,,,,50,Yonemasu,Yuka,,12/25/09,12/25/14,yoshi artist,,,0,0,0,0,0
-YYU,Yeji Yun,39 Stanley Avenue,,New Malden,Su,KT3 6EW,UK,,,,,seeouterspace@gmail.com,,40,Yun,Yeji,,8/6/08,8/6/13,,,,0,0,0,0,0
-ZIR,Zeinab Iranzadeh Ichme,3044 Figueroa Alcorta Street,,Buenos Aires,,1425,Argentina,-91531888297,,,,,,40,Iranzadeh Ichme,Zeinab,,3/29/12,3/29/17,,,,0,0,0,0,0
-ZWI,Zoo Wire,Imagezoo,,,,,,,,,,,,35,Wire,Zoo,,5/18/10,5/18/10,,,,0,0,0,0,0
+Id,Company,,
+AAV,Amy Aves,,
+ABA,Ana Barateiro,,
+ABE,Abemiki,,
+ABR,Allen Bradley,,
+ABS,Anna Bours,,
+ACA,Adam Carruthers,,
+ACH,Aaron Chambers,,
+ACO,Seiichiro,,
+ACR,Anne Cresci,,
+ACS,Andrea Chronopoulos,,
+ADE,Ana Delia,,
+AFE,Angela Fernihough,,
+AFO,All Fiction,,
+AGI,Adam Gillespie,,
+AGO,Ania Goszczynska,,
+AHA,Akemi Hara,,
+AKH,Aki Horiuchi,,
+AKI,Ann Kiernan,,
+AKR,Anastasya Krasnova,,
+ALB,Alins and Barco Studio,,
+ALC,Alessandra Chiarlo,,
+ALY,Andrew Lynne,,
+AMA,Antonietta Marrocchella,,
+AME,Annabelle Metayer,,
+AMS,Andreas Maschke,,
+AMU,Amy Mullen,,
+ANA,Aya Naito,,
+ANE,Aneu Martinez,,
+ANM,Ana Maria Angel,,
+ANO,Annika Nordenskiold,,
+APA,Aloysius Patrimonio,,
+APL,Andrew Plewes,,
+AQU,AQUE,,
+ARA,Anne Rasilainen,,
+ARO,Alan Rogerson,,
+ART,Artisticco,,
+ATA,Aiko Tanaka,0,
+ATS,Ayako Tsuge,,
+AUR,Aurinco,,
+AWE,Anja Weiss,,
+AWI,Annie Wilkinson,,
+AYA,Aya Yamene,,
+BBL,Bethel Blakesley,,
+BCA,Berene Campbell,,
+BCO,Bernardo Codesido,,
+BCR,Bea Crespo,,
+BED,Bambi Edlund,,
+BET,Betty,,
+BFA,Beatrice Favereau,,
+BGO,Blanca Gomez,,
+BNP,BNP Design Studio,,
+BON,Bon Bon,,
+BSC,Ben Schlitter,,
+BSE,B.F. Secuya,,
+BSK,Budi Satria Kwan,,
+BST,Blinkstock,,
+BTR,Beatriz Trello,,
+BUB,Butterscotch & Bean,,
+BUL,Bull's Eye,,
+BWE,Brooke Weeber,,
+BWO,Bruce Worthington,,
+BYA,Beth Yates,,
+CAR,Cargo,,
+CAS,Caroline Stirling,,
+CAT,Caroline Attia,,
+CAX,Charlotte Axworthy,,
+CAY,Coharu Aya,,
+CBL,,,
+CBR,Caroline Breault,,
+CDA,Cori Dantini,,
+CFL,Catty Flores,,
+CFR,Claire Fraser,,
+CGO,Carla Golembe,,
+CHA,Cathie Hahnel,,
+CHI,Chika Kurata,,
+CHO,Christa Howard,,
+CIR,Circa,,
+CJA,Cachetejack,,
+CJM,CJ Metzger,,
+CKO,Colleen Kong-Savage,,
+CLA,Christian Lattuada,,
+CLE,Christopher Leigh,,
+CMA,Cat MacInnes,,
+CMR,Carol Marden,,
+CMU,Ciaran Murphy,,
+CNO,Caroyln Nowak,,
+COF,Coco Flamingo,,
+COI,Chie Oishi,,
+COM,Compass,,
+CON,Carrie O'Neill,,
+CPL,Cynthia Plaza,,
+CSH,Chad J. Shaffer,,
+CTA,CHIKU,,
+CWA,Curt Walstead,,
+CWO,Christine Wong,,
+DAN,David Andrews,,
+DBE,David Barneda,,
+DDY,Debanjan Nandy,,
+DHI,Dion Hitchings,,
+DHU,Dawn Hudson,,
+DKI,Dave Kirwan,,
+DNA,Dilyara Nassyrova,,
+DPE,Dilek Peker,,
+DPI,Desy Pistonami,,
+DPR,Darren Pryce,,
+DRO,Doug Ross,,
+DSE,Dena Vail,,
+DSH,Devon Sharon,,
+DST,Dean Stanton,,
+DSU,Denise Sutherland,,
+DTO,Daisuke Torii,,
+DVE,Dorus Verwiel,,
+DWH,David Whittle,,
+DYA,Den Yamauchi,,
+DYE,Dmitry Yemelyanov,,
+DYI,Den Yamauchi,,
+DYR,Daylight Road,,
+EAM,Elmira Amirova,,
+EAR,Etsuko Aramaki,,
+EAU,Emiko Aumann,,
+EBA,Ella Bailey,,
+EBU,Elena Bulay,,
+ECO,Erin Cooper,,
+EES,Eeshaun,,
+EHI,Ellia Hill,,
+EIT,Eduardo Iturralde,,
+EJI,Eiji Yamachika,,
+EKH,Eriko Hirabayashi,,
+EKO,ennakonoma,,
+ELR,Elvee Regine,,
+EMO,Elvia Montemayor,,
+EPR,Eva Prada,,
+ERE,Eva Renes,,
+ESU,Egit Sumekar,,
+EVA,Emilie Vanvolsem,,
+EVR,Evgeniy Rodionov,,
+EYA,Eiko Yamaji,,
+FAU,Fausta,,
+FCO,Frank Collyer,,
+FMA,Francisco Martins,,
+FOU,Fougougou,,
+FSH,Fumihiko Shiozawa,,
+FTE,Francesca Tesoriere,,
+GBA,Gregory Baldwin,,
+GCR,Greg Cross,,
+GDO,Gavin Dobson,,
+GES,Genie Espinosa,,
+GEV,Gareth Evans,,
+GKE,Genevieve Kelly,,
+GLI,Glimy,,
+GLO,Gloss,,
+GLW,G. Lee Wall,,
+GTA,Goal Takekuma,,
+GWA,Gary Waters,,
+HAB,Habbenink,,
+HAR,Hugh Armstrong,,
+HAS,Hana Asami,,
+HBO,Honor Bowden,,
+HBU,Hannah Bureau,,
+HFU,Hiroshi Fujii,,
+HGE,Hadar Geva,,
+HGR,Heather Griffin,,
+HHU,Helen Huang,,
+HLA,Holly Lanagan,,
+HMA,Heather Castles,,
+HML,Hugo Maciel,,
+HNA,Hiroshi Nagasawa,,
+HST,Hannah Stouffer,,
+HTA,Hiro Tanahashi,,
+HTS,Hiroki Tsuboi,,
+HUE,Hidehiro Ueoka,,
+HWS,Helena Wilsen-Saunders,,
+IEL,Ian Ellery,,
+IGR,Iva Grueva,,
+IMO,Isaac Montemayor,,
+IMZ,ImageZoo,,
+INT,Intellecta Design,,
+IOL,Iryna Olenina,,
+ISO,Irena Sophia,,
+ITO,Ikuo Tohda,,
+IZA,Isabella Rieche,,
+JAB,Janie Berthiaume,,
+JAD,Jordan Adams,,
+JAM,James Peters,,
+JBA,Justin Baker,,
+JBO,Jens Bonnke,,
+JBR,Jill Browning,,
+JCA,Joseph Cali,,
+JCO,Jolanda Codognato,,
+JDE,Jeff DeWeerd,,
+JEA,Jesus Aburto,,
+JED,Jackie Edwards,,
+JEG,Jerry Gonzalez,,
+JFI,James Filbry,,
+JGH,Jessica Hogarth,,
+JGO,Jim Gordon,,
+JGR,Jessica Graham,,
+JHE,Julie Hendriks,,
+JHG,Jessica Hogarth,,
+JHO,Joost Hogervorst,,
+JIM,Jimajima,,
+JJI,Jombiejing,,
+JJO,Juli Johns,,
+JKI,Junichi Kishi,,
+JLI,Jay Lim,,
+JMA,Joe McDermott,,
+JMG,Jens Magnusson,,
+JMI,Joo Miranda,,
+JNE,Jimi Newport,,
+JOB,Joao Brandao,,
+JOL,Jennifer Orkin Lewis,,
+JOR,James Orndorf,,
+JPA,Janet Pacey,,
+JPC,Joao Pedro Canhenha,,
+JPE,Jesus Perea,,
+JPI,Jade Pilgrom,,
+JRO,Jens Rotzsche,,
+JSD,JS Daniel,,
+JSJ,Jynell St James,,
+JTS,Junichi Tsuneoka,,
+JVS,Jennifer Vandersteen,,
+JWA,Junji Watanabe,,
+JZA,Joanna Zastrozna,,
+JZR,Jennifer Z. Roszell,,
+KAI,Katsumi Araki,,
+KAN,Kayoko Nawa,,
+KAR,Karo,,
+KAY,Kayano,,
+KCH,Kat Chadwick,,
+KEI,Kei Hazuki,,
+KFE,Kiko Feria,,
+KFI,Karen Fields,,
+KFL,Kim Fleming,,
+KHA,Keika Hayashi,,
+KHI,Kei Hiramatsu,,
+KIN,Kenji Inoue,,
+KIS,Kaori Ishizaka,,
+KIW,Kazuhiro Iwata,,
+KJA,Ken Jacobsen,,
+KJM,Kerri-Jane Mitchell,,
+KJO,Krista Johnson,,
+KKI,Kitty Kilian,,
+KLE,Kari Lehr,,
+KMO,Kenji Motohashi,,
+KNA,Keiko Nakabachi,,
+KNO,Kenichi Nakane,,
+KOD,Keisuke Oda,0,
+KSH,Kana Shimao,,
+KSI,Kakigori Studio,,
+KST,Kim Stewart,,
+KTA,Kayo Tamaishi,,
+KUN,Kunihiko Nakano,,
+KVW,Kiley Victoria Woolgar,,
+KWA,Kauya Kawamura,,
+KYN,Kyoko Nakazawa,,
+LAL,Larry Limnidis,,
+LAS,Lana Sundman,,
+LBE,Laura Bertinelli,,
+LBO,Laura Bolter,,
+LBR,Laura Braisher,,
+LBS,Lola & Bek,,
+LCO,Lido Contemori,,
+LDO,Lorenzo Donati,,
+LFA,Logan Faerber,,
+LIB,LIBE,,
+LLU,Lulu,,
+LMA,Maxim Lagno,,
+LMU,Leon Mussche,,
+LPI,Louise Phillips,,
+LSC,Laura Schmidt,,
+LSI,Lauren Simone,,
+LSV,Lorna Siviter,,
+LTU,LouLou & Tummie,,
+LVI,Lala Vicencio,,
+MAB,Maria Bell,,
+MAC,Macky,,
+MAI,Mark Airs,,
+MAM,Mamayon,,
+MAT,Matsuichi,,
+MBA,Mimi Baum,,
+MBE,Matthias Bender,,
+MBI,Mr. Biscuit,,
+MCH,Mujka Chic,,
+MCK,MCKIBILLO,,
+MDB,Melissa Dustan Bartman,,
+MDY,Michelle Dybing,,
+MFR,Muriel Frega,,
+MFU,Miho Fukumoto,,
+MGW,Magdalena Glawer,,
+MHA,Mamiko Hasebe,,
+MHE,Mar Hernndez,,
+MHG,Meiya Huang,,
+MHW,Megan Howe,,
+MIF,Minoru Furuse,,
+MIM,Michiko Maeda,,
+MIN,Masami Inukai,,
+MIS,Melanie Isaacson,,
+MIY,Mizuki Yuasa,,
+MJU,Marty Juchnevic,,
+MKA,Magda Kalosz,,
+MLI,Malobi,,
+MMA,Miyako Matsuda,,
+MNA,Michiko Nakazato,,
+MNE,Malane Newman,,
+MOD,Mizuki Oda,,
+MOE,Moe Nakamura,,
+MOH,Mamoru Ohtake,,
+MOI,Mamiko Ohashi,,
+MPE,Marcella Peluffo,,
+MPG,Monika Pellkofer-Griesshammer,,
+MRL,Monica Ruiz Losa,,
+MSA,Masahiko Saga,,
+MSE,Mary Sergeeva,,
+MSO,Michela Sorrentino,,
+MSU,Minami Suzuki,,
+MTA,Mulga the Artist,,
+MYA,Mamoru Yamamoto,,
+MZA,Michel Zappy,,
+NAG,Naginohi,,
+NAH,Nanaha,,
+NAN,Norisa Anderson,,
+NAR,Nina Arctander,,
+NAS,Neal Aspinall,,
+NBA,Natalia Bayduzha,,
+NBE,Nathalie Beauvois,,
+NBO,Naomi Broudo,,
+NBR,Nicolas Craig,,
+NES,Neslihan Rawles,,
+NIK,Norie Ikegami,,
+NIL,Nikolai Larin,,
+NIM,Natsuko Imai,,
+NIN,Noriko Inoue,,
+NIT,Nana Itsuki,,
+NJE,Neil Jeffery,,
+NKA,Nanae Kawahara,,
+NKL,Nate Koehler,,
+NKO,Nanaho,,
+NOZ,Nozomi Inoue,,
+NRI,Nadia Richie Studio,,
+NSE,Nina Seven,,
+NSQ,Nic Squirrell,,
+NTI,Natsumi Tsuchida,,
+NTS,Nobuhiro Tsujimura,,
+NYB,Natalya Bronnikova,,
+OLA,Olga Lannik,,
+OMO,Olivia Moss,,
+OMU,Ovambo,,
+ONI,Onion,,
+OOP,Olivier Opron,,
+OTS,Oleksiy Tsuper,,
+OVI,Oreste Vinciguerra,,
+PAD,Patrick Marris,,
+PAF,Pedro Afonso,,
+PBU,Paulo Buchinho,,
+PDE,Dilek Peker,,
+PFO,Pete Forbes,,
+PGI,Paul Gilligan,,
+PGU,Paul Guzzo,,
+PHF,P & H,,
+PIX,Pixmann,,
+PMO,Pau Molas,,
+PPE,Priscilla Peeters,,
+PRE,Poppy & Red,,
+PSC,Phil Scroggs,,
+PSH,Paul Schexnayder,,
+PST,Petra Stefankova,,
+PSU,Petri Suni,,
+PVE,Preeti Verma,0,
+PZA,Paola Zakimi,,
+RAS,Ryan Retiro Ashburn,,
+RBA,Rocco Baviera,,
+RBE,Raymond Betancourt,,
+RBR,Russell Brocklehurst,,
+RCA,Ronnie Casson,,
+RCO,Roberta Cottam,,
+RCS,Rachel Stoleru,,
+RGA,Rosa Garcia,,
+RHA,Reese Harper,,
+RHU,Rosy Illustrations,,
+RIC,Ricow,,
+RIH,Riyoco Hanasawa,,
+RME,Renia Metallinou,,
+RMI,Ray Medici,,
+ROC,Rob Colvin,,
+ROM,Roman Beskrovny,,
+RSH,Ruchi Shah,,
+RST,Rigel Stuhmiller,,
+RTA,Ryan Tandya,,
+RTO,Rutsu Tobii,,
+RTR,Ruediger Trebels,,
+RUF,Rufous,,
+RWI,Robert Windauer,,
+RWU,Ricky Wu,,
+RXH,Roxana Habasescu,,
+RYA,Rie Yamamoto,,
+RYI,Royji Nakajima,,
+SAF,Silvia Falqueto,,
+SAJ,Sahar Ajami,,
+SAS,Sean Ashby,,
+SCA,Stephanie Carter,,
+SDU,Sofya Dushkina,,
+SFA,Sylvain Fajner,,
+SFI,Sandi Fitzgerald,,
+SFO,Stock Foundry,,
+SGA,Saya Gansai,,
+SHA,Sven Hauth,,
+SHE,Sophy Henn,,
+SHI,SHIZUKA,,
+SIW,Sumiyo Iwaguchi,,
+SKA,Satoru Kawata,,
+SKI,Sheila Kinakin,,
+SKR,Sabine Krauss,,
+SLU,Shane Luskie,,
+SMA,Stephen May,,
+SME,Soizick Meister,,
+SMI,Frank Adams,,
+SMO,Sadahito Mori,,
+SMU,Saori Murao,,
+SNA,Sandra Nascimento,,
+SOU,Souki,,
+SPE,Susan Pemberton,,
+SPS,Spark Studio,,
+SRO,Studio Robin,,
+SRT,Shien-Ru Tsao,,
+SSH,Sara Showalter,,
+STA,Stamptout,,
+STE,Satoco,,
+STO,Stefano Tognetti,,
+SUL,Suli,,
+SVE,Sushimix,,
+SWE,Scott Weichert,,
+SWI,Scott Wilson,,
+SYA,Stealth,,
+SYO,Saki Yoshida,,
+SZO,Studio Zoo,,
+TCO,Teresanne Cossetta,,
+TEA,TEA,,
+TFR,Tanya Francis,,
+THA,Tomoko Hashimoto,,
+THE,Tomas Hernandez,,
+THU,Thomas Thu Hurlimann,,
+TIR,Tama-iris,,
+TJO,Tomas Jonsson,,
+TJU,Tomasz Junik,,
+TKN,Tom Knight,,
+TKO,Taeko Koba,,
+TKU,Takuya Kuriyama,,
+TMU,Mushuko Takabe,,
+TOB,Tibori,,
+TOH,Tove Hennix,,
+TOK,Tetsuro Okabe,,
+TOM,Tomomi Matsuhira,,
+TOO,Tooco,,
+TOR,Toru Sasaki,,
+TOW,Teddy Owens,,
+TRI,Taren Riley,,
+TSO,Taylor Southerland,,
+TUE,Takashi Ueno,,
+TWM,Teresa Woo-Murray,,
+TYA,Yagi Tomoko,,
+UBR,Ursula Bruski,,
+VCR,Valentina Crespo,,
+VGA,VectorGal,,
+VKU,Vinca Kumala,,
+VMO,Visual Mozart,,
+VSA,Vika Sabo,,
+VTA,Venki,0,
+VVA,Vance Vasu,,
+VWO,Vinicky,,
+WBR,Lily Ashbury,,
+WCH,Wendy Chan,,
+WDR,Walter Drood,,
+WHE,Wolfgang Herzig,,
+WSA,Wako Sakurai,,
+YAN,Green Papaya Studio,,
+YBA,Yoshimi Baba,,
+YDR,Yulia Drobova,,
+YHO,Yuri Horikawa,,
+YIM,Yumi Imai,0,0
+YIW,Yumiko Iwasaki,,
+YJA,Yenty Jap,,
+YKA,Yosuke,,
+YKO,Yulia Koryakina,,
+YLB,Yann Le Bec,,
+YMA,Yuki Maruyama,,
+YMO,Yuki Mori,,
+YNA,Yoko Nakamura,,
+YOK,Yoko Okubo,,
+YTA,Yu Takahashi,,
+YUN,Yun,,
+YWA,Yuriko Wakayama,,
+YYO,Yuka Yonemasu,,
+YYU,Yeji Yun,,
+ZIR,Zeinab Iranzadeh Ichme,,
+ZWI,Zoo Wire,,

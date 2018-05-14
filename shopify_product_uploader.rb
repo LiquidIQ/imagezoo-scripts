@@ -1,8 +1,6 @@
 require 'csv'
 require 'shopify_api'
-
-csv_products = CSV.read('iz-images.csv')
-# csv_artists = CSV.read('iz-artists.csv')
+require 'date'
 
 API_KEY = "5be1e793270a36242c1368d6de5c3a9d"
 PASSWORD = "ddcafc1072286dfb03dba080f7f5083d"
@@ -17,27 +15,33 @@ ID_COL = 0
 NAME_COL = 1
 SUPPLIER_COL = 1
 DATE_COL = 2
-TITLE_COL = 5
+TITLE_COL = 3
 COLLECTION_COL = 26
 
 def build_artist_hash(artists)
+    csv_artists = CSV.read('iz-artists.csv')
+
     csv_artists.each do |row|
         artists << { row[ID_COL] => row[NAME_COL] }
     end
+
+    puts artists
+
     return artists
 end
 
 def send_prods_to_shopify(artists, products)
-    
-    # TAGS_COL = 36...264
-    # .to_time.iso8601
+    product_images = get_product_images("all.txt")
+    csv_products = CSV.read('iz-images.csv')
+    puts product_images
     csv_products.each do |row|
-        @vendorName = artist_id_to_name(artists, row[SUPPLIER_COL])
+        vendor_name = artist_id_to_name(artists, row[SUPPLIER_COL])
+        # puts vendor_name
         product = ShopifyAPI::Product.new({
             title: row[TITLE_COL], 
-            vendor: @vendor_name,
+            vendor: vendor_name,
             product_type: "Image",
-            created_at: row[DATE_COL].to_time.iso8601
+            sku: row[ID_COL],
             variants: [
                 {
                     option1: "Hi-Res .jpg",
@@ -53,6 +57,10 @@ def send_prods_to_shopify(artists, products)
         })
         begin
             product.save
+            CSV.open("uploaded-products.csv", "ab") do |csv|
+                csv << [product.sku]
+            end
+            puts Time.now
         rescue ActiveResource::ClientError => e
             puts e.message
             sleep(10)
@@ -64,8 +72,20 @@ end
 def artist_id_to_name(artists, id)
     if a = artists.find {|h| h.key? id } then
         return a[id]
+    else
+        puts "#{id} not found"
     end
 end
 
-artist = build_artist_hash(artist)
-send_prods_to_shopify(artist, products)
+def get_product_images(filename)
+    txt_products = File.open(filename, "r")
+    products = Array.new
+
+    txt_products.each_line do |line|
+        products << [line[0], line[1]]
+    end
+    return products
+end
+
+artists = build_artist_hash(artists)
+send_prods_to_shopify(artists, products)
