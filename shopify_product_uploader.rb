@@ -2,7 +2,7 @@ require 'csv'
 require 'shopify_api'
 
 csv_products = CSV.read('iz-images.csv')
-csv_artists = CSV.read('iz-artists.csv')
+# csv_artists = CSV.read('iz-artists.csv')
 
 API_KEY = "5be1e793270a36242c1368d6de5c3a9d"
 PASSWORD = "ddcafc1072286dfb03dba080f7f5083d"
@@ -30,15 +30,14 @@ end
 def send_prods_to_shopify(artists, products)
     
     # TAGS_COL = 36...264
-
     # .to_time.iso8601
-
     csv_products.each do |row|
         @vendorName = artist_id_to_name(artists, row[SUPPLIER_COL])
         product = ShopifyAPI::Product.new({
             title: row[TITLE_COL], 
             vendor: @vendor_name,
             product_type: "Image",
+            created_at: row[DATE_COL].to_time.iso8601
             variants: [
                 {
                     option1: "Hi-Res .jpg",
