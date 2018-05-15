@@ -56,12 +56,17 @@ def send_prods_to_shopify(artists, products)
 
     start_time = Time.now
     products_remaining = product_count
+    processing_average = Array.new
 
     csv_products.each do |row|
         # avoiding duplication of server work 
         if prod_already_uploaded(row[ID_COL]) || prod_not_in_aws(row[ID_COL])
             products_remaining -= 1
             puts products_remaining
+            csv_skipped = CSV.open("skipped-uploads.csv", "ab") do |csv|
+                csv << [row[ID_COL]]
+                binding.pry
+            end
             next
         end
 
@@ -71,6 +76,7 @@ def send_prods_to_shopify(artists, products)
         # pausing to keep our shopify api_call bucket full
         stop_time = Time.now
         processing_duration = stop_time - start_time
+        processing_average << processing_duration
         puts "The processing lasted #{processing_duration.to_i} seconds."
         puts "#{products_remaining} Remaining"
         wait_time = (CYCLE - processing_duration).ceil
