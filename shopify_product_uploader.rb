@@ -65,7 +65,7 @@ def send_prods_to_shopify(artists, products)
             puts products_remaining
             csv_skipped = CSV.open("skipped-uploads.csv", "ab") do |csv|
                 csv << [row[ID_COL]]
-                binding.pry
+                # binding.pry
             end
             next
         end
