@@ -42,7 +42,7 @@ def prod_already_uploaded(product_id)
 end
 
 def prod_not_in_aws(product_id)
-    aws_products = CSV.read("all.csv")
+    aws_products = CSV.read("all2.csv")
     id_list = Array.new
     aws_products.each do |row|
         id_list << row[0]
