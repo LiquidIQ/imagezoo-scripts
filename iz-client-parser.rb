@@ -13,12 +13,11 @@ def get_customer_purchases(csv_sales)
         if i > 0
             customer_id = sale[saleIdCol][0...-1]
             valid_customer = Integer(customer_id) rescue false
-            binding.pry if customer_id == "1047620"
             if valid_customer
                 product = sale[prodIdCol]
 
                 if client = customer_purchases.find {|h| h.key? customer_id }
-                    # client.dig(customer_id, "purchases") << product
+                    client.dig(customer_id, "purchases") << product
                 else
                     customer_purchases << {customer_id => {"purchases" => [product]}}
                 end
@@ -75,7 +74,7 @@ SHOP_NAME = "imagezoo"
 shop_url = "https://#{API_KEY}:#{PASSWORD}@#{SHOP_NAME}.myshopify.com/admin"
 ShopifyAPI::Base.site = shop_url
 
-CYCLE = 0
+CYCLE = 1.5
 
 
 
@@ -96,22 +95,22 @@ clients.each do |client|
         sleep wait_time if wait_time > 0
         start_time = Time.now
         clients_remaining -= 1
-        validation = [v['fname'], v['lname'], v['email']]
+        validation = [v['email'], v['lname'], v['accepts_marketing']]
 
         # binding.pry
         
         unless validation.include? nil
-            csv_log << [validation]
-            # puts "#{v['email']} at: #{Time.now}"
-            # new_client = ShopifyAPI::Customer.new
-            # new_client.fname = v['fname']
-            # new_client.lname = v['lname']
-            # new_client.email = v['email']
-            # new_client.company = v['company']
-            # new_client.accepts_marketing = v['accepts_marketing']
-
-            # # binding.pry
-            # new_client.save
+            # csv_log << [v['email'], v['lname'], v['accepts_marketing'], v['purchases']]
+            puts "#{v['email']} at: #{Time.now}"
+            new_client = ShopifyAPI::Customer.new
+            new_client.fname = v['fname']
+            new_client.lname = v['lname']
+            new_client.email = v['email']
+            new_client.company = v['company']
+            new_client.accepts_marketing = v['accepts_marketing']
+            new_client.tags = v['purchases'].join(',')
+            # binding.pry
+            new_client.save
         end
     end
 end
