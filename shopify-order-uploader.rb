@@ -10,5 +10,18 @@ SHOP_NAME = "imagezoo"
 shop_url = "https://#{API_KEY}:#{PASSWORD}@#{SHOP_NAME}.myshopify.com/admin"
 ShopifyAPI::Base.site = shop_url
 
+csv_products = CSV.read("products_export.csv")
+csv_clients = CSV.read("customers_export.csv")
+csv_old_sales = CSV.read("iz-sales.csv")
+csv_old_clients = CSV.read("iz-clients.csv")
 
-binding.pry
+IMG_ID_COL = 0
+CLIENT_COL = 4
+
+# Create a hash of all clients on Shopify
+# Add old id from csv_old_clients to hash
+# get id from csv_old_sales
+# check client hash for id
+# for id = client.id 
+    # add matching product id from csv_products to client 
+

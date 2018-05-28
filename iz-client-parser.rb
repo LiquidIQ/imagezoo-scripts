@@ -75,7 +75,7 @@ SHOP_NAME = "imagezoo"
 shop_url = "https://#{API_KEY}:#{PASSWORD}@#{SHOP_NAME}.myshopify.com/admin"
 ShopifyAPI::Base.site = shop_url
 
-CYCLE = 2
+CYCLE = 0
 
 
 
@@ -84,6 +84,7 @@ clients_remaining = clients.size
 clients.each do |client|
     # pausing to keep our shopify api_call bucket full
     start_time = Time.now
+    csv_log = CSV.open("uploadable_clients.csv", "ab")
     client.each do |k, v|
 
         stop_time = Time.now
@@ -100,16 +101,17 @@ clients.each do |client|
         # binding.pry
         
         unless validation.include? nil
-            puts "#{v['email']} at: #{Time.now}"
-            new_client = ShopifyAPI::Customer.new
-            new_client.fname = v['fname']
-            new_client.lname = v['lname']
-            new_client.email = v['email']
-            new_client.company = v['company']
-            new_client.accepts_marketing = v['accepts_marketing']
+            csv_log << [validation]
+            # puts "#{v['email']} at: #{Time.now}"
+            # new_client = ShopifyAPI::Customer.new
+            # new_client.fname = v['fname']
+            # new_client.lname = v['lname']
+            # new_client.email = v['email']
+            # new_client.company = v['company']
+            # new_client.accepts_marketing = v['accepts_marketing']
 
-            # binding.pry
-            new_client.save
+            # # binding.pry
+            # new_client.save
         end
     end
 end
