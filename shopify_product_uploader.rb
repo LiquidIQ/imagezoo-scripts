@@ -20,6 +20,8 @@ NAME_COL = 1
 SUPPLIER_COL = 1
 DATE_COL = 2
 TITLE_COL = 3
+TAG_COL = 5
+
 COLLECTION_COL = 26
 CSV.open("uploaded-products.csv", "ab")
 
@@ -50,8 +52,18 @@ def prod_not_in_aws(product_id)
     return id_list.index {|e| e.include? product_id} == nil ? true : false
 end
 
+def get_product_tags(tags_array)
+    return tags_array.compact.join(",")
+end
+
 def send_prods_to_shopify(artists, products)
     csv_products = CSV.read('iz-images.csv')
+    csv_all = CSV.read('all2.csv')
+    valid_products = Array.new
+    csv_all.each do |row|
+        valid_products << row[0]
+    end
+
     product_count = csv_products.size
 
     start_time = Time.now
@@ -59,61 +71,68 @@ def send_prods_to_shopify(artists, products)
     processing_average = Array.new
 
     csv_products.each do |row|
+        if valid_products.include? row[ID_COL]
         # avoiding duplication of server work 
-        if prod_already_uploaded(row[ID_COL]) || prod_not_in_aws(row[ID_COL])
-            products_remaining -= 1
-            puts products_remaining
-            csv_skipped = CSV.open("skipped-uploads.csv", "ab") do |csv|
-                csv << [row[ID_COL]]
-                # binding.pry
+            
+            if prod_already_uploaded(row[ID_COL]) || prod_not_in_aws(row[ID_COL])
+                products_remaining -= 1
+                puts products_remaining
+                csv_skipped = CSV.open("skipped-uploads.csv", "ab") do |csv|
+                    csv << [row[ID_COL]]
+                    # binding.pry
+                end
+                next
             end
-            next
-        end
 
-        # convert vendor initials to full name
-        vendor_name = artist_id_to_name(artists, row[SUPPLIER_COL])
+            # convert vendor initials to full name
+            vendor_name = artist_id_to_name(artists, row[SUPPLIER_COL])
+            tags = get_product_tags(row.drop(TAG_COL))
 
-        # pausing to keep our shopify api_call bucket full
-        stop_time = Time.now
-        processing_duration = stop_time - start_time
-        processing_average << processing_duration
-        puts "The processing lasted #{processing_duration.to_i} seconds."
-        puts "#{products_remaining} Remaining"
-        wait_time = (CYCLE - processing_duration).ceil
-        puts "We have to wait #{wait_time} seconds then we will resume."
-        sleep wait_time if wait_time > 0
-        start_time = Time.now
+            # pausing to keep our shopify api_call bucket full
+            stop_time = Time.now
+            processing_duration = stop_time - start_time
+            processing_average << processing_duration
+            start_time = Time.now
+            puts "The processing lasted #{processing_duration.to_i} seconds."
+            puts "#{products_remaining} Remaining"
+            wait_time = (CYCLE - processing_duration).ceil
+            puts "We have to wait #{wait_time} seconds then we will resume."
+            sleep wait_time if wait_time > 0
+            
+            
+            # we know that this exists if we're here
+            product_watermark = get_product_image(row[ID_COL])
 
-        # we know that this exists if we're here
-        product_watermark = get_product_image(row[ID_COL])
+            product = ShopifyAPI::Product.new({
+                title: row[TITLE_COL], 
+                vendor: vendor_name,
+                product_type: "Image",
+                sku: row[ID_COL],
+                tags: tags,
+                variants: [
+                    {
+                        option1: "Hi-Res .jpg",
+                        price: "2.00",
+                        sku: "#{row[ID_COL]}-HR"
+                    },
+                    {
+                        option1: "Web-Res .jpg",
+                        price: "1.00",
+                        sku: "#{row[ID_COL]}-Web"
+                    }
+                ],
+                images: [
+                    src: product_watermark
+                ]
+                
+            })
+            binding.pry
+            product.save
+            products_remaining -= 1
 
-        product = ShopifyAPI::Product.new({
-            title: row[TITLE_COL], 
-            vendor: vendor_name,
-            product_type: "Image",
-            sku: row[ID_COL],
-            variants: [
-                {
-                    option1: "Hi-Res .jpg",
-                    price: "2.00",
-                    sku: "#{row[ID_COL]}-HR"
-                },
-                {
-                    option1: "Web-Res .jpg",
-                    price: "1.00",
-                    sku: "#{row[ID_COL]}-Web"
-                }
-            ],
-            images: [
-                src: product_watermark
-            ]
-        })
-
-        product.save
-        products_remaining -= 1
-
-        CSV.open("uploaded-products.csv", "ab") do |csv|
-            csv << [product.sku]
+            CSV.open("uploaded-products.csv", "ab") do |csv|
+                csv << [product.sku]
+            end
         end
     end
 end
@@ -127,7 +146,7 @@ def artist_id_to_name(artists, id)
 end
 
 def get_product_image(image_id)
-    csv_products = CSV.open("all.csv")
+    csv_products = CSV.open("all2.csv")
     products = Hash.new
 
     csv_products.each do |row|
