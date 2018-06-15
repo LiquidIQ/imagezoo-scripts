@@ -56,6 +56,10 @@ def get_product_tags(tags_array)
     return tags_array.compact.join(",")
 end
 
+def get_img_details()
+    return "no deets yet"
+end
+
 def send_prods_to_shopify(artists, products)
     csv_products = CSV.read('iz-images.csv')
     csv_all = CSV.read('all2.csv')
@@ -71,6 +75,7 @@ def send_prods_to_shopify(artists, products)
     processing_average = Array.new
 
     csv_products.each do |row|
+        tries ||= 3
         if valid_products.include? row[ID_COL]
         # avoiding duplication of server work 
             
@@ -102,6 +107,15 @@ def send_prods_to_shopify(artists, products)
             
             # we know that this exists if we're here
             product_watermark = get_product_image(row[ID_COL])
+            
+            #find the place to replace the watermark address with the thumbnail address
+            m = Regexp.new('.*?(_)', Regexp::IGNORECASE)
+            product_thumbnail = "#{m.match(product_watermark)[0]}t.jpg"
+            p "don't forget to change this!"
+            binding.pry
+
+            wr_details = get_img_details()
+            hr_details = get_img_details()
 
             product = ShopifyAPI::Product.new({
                 title: row[TITLE_COL], 
@@ -113,25 +127,40 @@ def send_prods_to_shopify(artists, products)
                     {
                         option1: "Hi-Res .jpg",
                         price: "2.00",
-                        sku: "#{row[ID_COL]}-HR"
+                        sku: "#{row[ID_COL]}-HR",
+                        barcode: hr_details
                     },
                     {
                         option1: "Web-Res .jpg",
                         price: "1.00",
                         sku: "#{row[ID_COL]}-Web"
+                        barcode: wr_details
                     }
                 ],
                 images: [
-                    src: product_watermark
+                    { 
+                        src: product_thumbnail,
+                        position: 1 
+                    },
+                    { 
+                        src: product_watermark,
+                        position: 2
+                    }
                 ]
                 
             })
-            binding.pry
-            product.save
-            products_remaining -= 1
 
-            CSV.open("uploaded-products.csv", "ab") do |csv|
-                csv << [product.sku]
+            begin
+                product.save
+                products_remaining -= 1
+
+                CSV.open("uploaded-products.csv", "ab") do |csv|
+                    csv << [product.sku]
+                end
+            rescue ActiveResource::TimeoutError => e
+                sleep 5
+                retry unless (tries -=1).zero?
+                
             end
         end
     end
