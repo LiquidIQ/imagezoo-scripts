@@ -54,7 +54,8 @@ def prod_not_in_aws(product_id)
     return id_list.index {|e| e.include? product_id} == nil ? true : false
 end
 
-def get_product_tags(tags_array)
+def get_product_tags(tags_array, image_id)
+    tags_array << image_id
     return tags_array.compact.join(",")
 end
 
@@ -111,7 +112,7 @@ def send_prods_to_shopify(artists, products)
 
             # convert vendor initials to full name
             vendor_name = artist_id_to_name(artists, row[SUPPLIER_COL])
-            tags = get_product_tags(row.drop(TAG_COL))
+            tags = get_product_tags(row.drop(TAG_COL), row[ID_COL])
 
             # pausing to keep our shopify api_call bucket full
             stop_time = Time.now
@@ -154,7 +155,7 @@ def send_prods_to_shopify(artists, products)
                         requires_shipping: false
                     },
                     {
-                        option2: "Web-Res .jpg",
+                        option1: "Web-Res .jpg",
                         price: "1.00",
                         sku: "#{row[ID_COL]}-Web",
                         barcode: wr_details,
@@ -172,7 +173,6 @@ def send_prods_to_shopify(artists, products)
             })
 
             begin
-                binding.pry
                 product.save
                 products_remaining -= 1
 
