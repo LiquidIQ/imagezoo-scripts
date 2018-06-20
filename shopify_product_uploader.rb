@@ -129,9 +129,10 @@ def send_prods_to_shopify(artists, products)
             product_watermark = get_product_image(row[ID_COL])
             
             #find the place to replace the watermark address with the thumbnail address
-            m = Regexp.new('.*?(_)', Regexp::IGNORECASE)
-            product_thumbnail = "#{m.match(product_watermark)[0]}t.jpg"
-            p "don't forget to change this!"
+            # m = Regexp.new('.*?(_)', Regexp::IGNORECASE)
+            # product_thumbnail = "#{m.match(product_watermark)[0]}t.jpg"
+
+            # p product_thumbnail
 
             wr_details = get_img_details(row[ID_COL], WRCOL)
             hr_details = get_img_details(row[ID_COL], HRCOL)
@@ -163,7 +164,7 @@ def send_prods_to_shopify(artists, products)
                 ],
                 images: [
                     { 
-                        src: product_thumbnail,
+                        src: product_watermark,
                         position: 1 
                     }
                 ]
@@ -172,15 +173,15 @@ def send_prods_to_shopify(artists, products)
 
             begin
                 # binding.pry
-                product.save
-                products_remaining -= 1
+                # product.save
+                # products_remaining -= 1
 
-                CSV.open("uploaded-products.csv", "ab") do |csv|
-                    csv << [product.sku]
-                end
-                rescue ActiveResource::ClientError, Errno::ENETDOWN, ActiveResource::TimeoutError, ActiveResource::ServerError => e
-                sleep 5
-                retry
+                # CSV.open("uploaded-products.csv", "ab") do |csv|
+                #     csv << [product.sku]
+                # end
+                # rescue ActiveResource::ClientError, Errno::ENETDOWN, ActiveResource::TimeoutError, ActiveResource::ServerError => e
+                # sleep 5
+                # retry
                 
             end
         end
@@ -202,7 +203,9 @@ def get_product_image(image_id)
     csv_products.each do |row|
         products.store(row[0], row[1])
     end
-    return "#{WATERMARK_URL}#{products.dig(image_id)}"
+    url = "#{WATERMARK_URL}#{products.dig(image_id)}"
+    # puts url
+    return url
 end
 
 artists = build_artist_hash(artists)
