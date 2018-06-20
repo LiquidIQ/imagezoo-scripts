@@ -21,6 +21,8 @@ SUPPLIER_COL = 1
 DATE_COL = 2
 TITLE_COL = 3
 TAG_COL = 5
+WRCOL = 4
+HRCOL = 1
 
 COLLECTION_COL = 26
 CSV.open("uploaded-products.csv", "ab")
@@ -56,8 +58,26 @@ def get_product_tags(tags_array)
     return tags_array.compact.join(",")
 end
 
-def get_img_details()
-    return "no deets yet"
+def get_img_details(image_id, starting_col)
+    csv_deets = CSV.read("product-details.csv")
+    deets_list = Array.new
+    sizeCol = starting_col
+    widthCol = starting_col + 1
+    heightCol = starting_col + 2
+    matchingID = ""
+    csv_deets.drop(1).each do |row|
+        width = row[widthCol].to_i
+        height = row[heightCol].to_i
+        size = row[sizeCol]
+        dpi = (starting_col == WRCOL)? 72 : 300
+        inWidth = (width/dpi).round(1)
+        inHeight = (height/dpi).round(0)
+        details = "#{size}  #{inWidth}x#{inHeight}in  #{dpi}dpi  #{width}x#{height}px"
+        matchingID = row[0][0...7]
+        deets_list << [matchingID, details]
+    end
+    index = deets_list.index {|e| e[0].upcase.include? image_id }
+    return deets_list[index][1]
 end
 
 def send_prods_to_shopify(artists, products)
@@ -112,10 +132,9 @@ def send_prods_to_shopify(artists, products)
             m = Regexp.new('.*?(_)', Regexp::IGNORECASE)
             product_thumbnail = "#{m.match(product_watermark)[0]}t.jpg"
             p "don't forget to change this!"
-            binding.pry
 
-            wr_details = get_img_details()
-            hr_details = get_img_details()
+            wr_details = get_img_details(row[ID_COL], WRCOL)
+            hr_details = get_img_details(row[ID_COL], HRCOL)
 
             product = ShopifyAPI::Product.new({
                 title: row[TITLE_COL], 
@@ -123,34 +142,35 @@ def send_prods_to_shopify(artists, products)
                 product_type: "Image",
                 sku: row[ID_COL],
                 tags: tags,
+
                 variants: [
                     {
                         option1: "Hi-Res .jpg",
                         price: "2.00",
                         sku: "#{row[ID_COL]}-HR",
-                        barcode: hr_details
+                        barcode: hr_details,
+                        requires_shipping: false
                     },
                     {
-                        option1: "Web-Res .jpg",
+                        option2: "Web-Res .jpg",
                         price: "1.00",
-                        sku: "#{row[ID_COL]}-Web"
-                        barcode: wr_details
+                        sku: "#{row[ID_COL]}-Web",
+                        barcode: wr_details,
+                        requires_shipping: false
+
                     }
                 ],
                 images: [
                     { 
                         src: product_thumbnail,
                         position: 1 
-                    },
-                    { 
-                        src: product_watermark,
-                        position: 2
                     }
                 ]
                 
             })
 
             begin
+                binding.pry
                 product.save
                 products_remaining -= 1
 
