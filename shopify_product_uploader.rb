@@ -172,16 +172,16 @@ def send_prods_to_shopify(artists, products)
             })
 
             begin
-                # binding.pry
-                # product.save
-                # products_remaining -= 1
+                binding.pry
+                product.save
+                products_remaining -= 1
 
-                # CSV.open("uploaded-products.csv", "ab") do |csv|
-                #     csv << [product.sku]
-                # end
-                # rescue ActiveResource::ClientError, Errno::ENETDOWN, ActiveResource::TimeoutError, ActiveResource::ServerError => e
-                # sleep 5
-                # retry
+                CSV.open("uploaded-products.csv", "ab") do |csv|
+                    csv << [product.sku]
+                end
+                rescue ActiveResource::ClientError, Errno::ENETDOWN, ActiveResource::TimeoutError, ActiveResource::ServerError => e
+                sleep 5
+                retry
                 
             end
         end
