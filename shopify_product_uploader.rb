@@ -137,7 +137,8 @@ def send_prods_to_shopify(artists, products)
             hr_details = get_img_details(row[ID_COL], HRCOL)
 
             product = ShopifyAPI::Product.new({
-                title: row[TITLE_COL], 
+                handle: row[ID_COL], 
+                title: row[TITLE_COL],
                 vendor: vendor_name,
                 product_type: "Image",
                 sku: row[ID_COL],
@@ -170,16 +171,16 @@ def send_prods_to_shopify(artists, products)
             })
 
             begin
-                binding.pry
+                # binding.pry
                 product.save
                 products_remaining -= 1
 
                 CSV.open("uploaded-products.csv", "ab") do |csv|
                     csv << [product.sku]
                 end
-            rescue ActiveResource::TimeoutError => e
+                rescue ActiveResource::ClientError, Errno::ENETDOWN, ActiveResource::TimeoutError, ActiveResource::ServerError => e
                 sleep 5
-                retry unless (tries -=1).zero?
+                retry
                 
             end
         end
