@@ -54,8 +54,9 @@ def prod_not_in_aws(product_id)
     return id_list.index {|e| e.include? product_id} == nil ? true : false
 end
 
-def get_product_tags(tags_array, image_id)
+def get_product_tags(tags_array, image_id, artist_name)
     tags_array << image_id
+    tags_array << artist_name
     return tags_array.compact.join(",")
 end
 
@@ -112,7 +113,7 @@ def send_prods_to_shopify(artists, products)
 
             # convert vendor initials to full name
             vendor_name = artist_id_to_name(artists, row[SUPPLIER_COL])
-            tags = get_product_tags(row.drop(TAG_COL), row[ID_COL])
+            tags = get_product_tags(row.drop(TAG_COL), row[ID_COL], vendor_name)
 
             # pausing to keep our shopify api_call bucket full
             stop_time = Time.now
