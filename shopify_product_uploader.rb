@@ -25,7 +25,7 @@ WRCOL = 4
 HRCOL = 1
 
 COLLECTION_COL = 26
-CSV.open("uploaded-products.csv", "ab")
+uploaded_prods = CSV.open("uploaded-products.csv", "ab")
 
 def build_artist_hash(artists)
     csv_artists = CSV.read('iz-artists.csv')
@@ -66,7 +66,6 @@ def get_img_details(image_id, starting_col)
     sizeCol = starting_col
     widthCol = starting_col + 1
     heightCol = starting_col + 2
-    matchingID = ""
     csv_deets.drop(1).each do |row|
         width = row[widthCol].to_i
         height = row[heightCol].to_i
@@ -79,15 +78,19 @@ def get_img_details(image_id, starting_col)
         deets_list << [matchingID, details]
     end
     index = deets_list.index {|e| e[0].upcase.include? image_id }
-    return deets_list[index][1]
+    if index
+        return deets_list[index][1]
+    else
+        return false
+    end
 end
 
 def send_prods_to_shopify(artists, products)
     csv_products = CSV.read('iz-images.csv')
-    csv_all = CSV.read('all2.csv')
+    csv_all = CSV.read('product-details.csv')
     valid_products = Array.new
     csv_all.each do |row|
-        valid_products << row[0]
+        valid_products << row[0][0...7].upcase
     end
 
     product_count = csv_products.size
@@ -97,8 +100,7 @@ def send_prods_to_shopify(artists, products)
     processing_average = Array.new
 
     csv_products.each do |row|
-        tries ||= 3
-        if valid_products.include? row[ID_COL]
+        if valid_products.include? row[ID_COL][0...7]
         # avoiding duplication of server work 
             
             if prod_already_uploaded(row[ID_COL]) || prod_not_in_aws(row[ID_COL])
