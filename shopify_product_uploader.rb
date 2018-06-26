@@ -21,10 +21,11 @@ SUPPLIER_COL = 1
 DATE_COL = 2
 TITLE_COL = 3
 TAG_COL = 5
-WRCOL = 4
-HRCOL = 1
+WR_COL = 4
+HR_COL = 1
 
 COLLECTION_COL = 26
+
 uploaded_prods = CSV.open("uploaded-products.csv", "ab")
 
 def build_artist_hash(artists)
@@ -67,15 +68,21 @@ def get_img_details(image_id, starting_col)
     widthCol = starting_col + 1
     heightCol = starting_col + 2
     csv_deets.drop(1).each do |row|
-        width = row[widthCol].to_i
-        height = row[heightCol].to_i
+
+        if row[width_col].to_i > 0
+            dpi = (starting_col == HR_COL) ? 300 : 72
+            width = row[widthCol].to_i
+            height = row[heightCol].to_i
+            in_width = (width/dpi).round(1)
+            in_height = (height/dpi).round(0)
+            dim_details = "#{in_width}x#{in_height}in  #{dpi}dpi  #{width}x#{height}px"
+        else 
+            dim_details = "| .eps vector files are scalable to any printable size"
+        end
         size = row[sizeCol]
-        dpi = (starting_col == WRCOL)? 72 : 300
-        inWidth = (width/dpi).round(1)
-        inHeight = (height/dpi).round(0)
-        details = "#{size}  #{inWidth}x#{inHeight}in  #{dpi}dpi  #{width}x#{height}px"
-        matchingID = row[0][0...7]
-        deets_list << [matchingID, details]
+        details = "#{size} #{dim_details}"
+        matching_id = row[0][0...7]
+        deets_list << [matching_id, details]
     end
     index = deets_list.index {|e| e[0].upcase.include? image_id }
     if index
@@ -138,9 +145,15 @@ def send_prods_to_shopify(artists, products)
 
             # p product_thumbnail
 
-            wr_details = get_img_details(row[ID_COL], WRCOL)
-            hr_details = get_img_details(row[ID_COL], HRCOL)
-
+            wr_details = get_img_details(row[ID_COL], WR_COL)
+            hr_details = get_img_details(row[ID_COL], HR_COL)
+            if hr_details.include? ".eps"
+                option1 = ".eps Vector Image"
+            else 
+                option1 = "Hi-Res .jpg"
+            end
+            puts option1
+            
             product = ShopifyAPI::Product.new({
                 handle: row[ID_COL], 
                 title: row[TITLE_COL],
@@ -151,7 +164,7 @@ def send_prods_to_shopify(artists, products)
 
                 variants: [
                     {
-                        option1: "Hi-Res .jpg",
+                        option1: option1,
                         price: "2.00",
                         sku: "#{row[ID_COL]}-HR",
                         barcode: hr_details,
@@ -176,7 +189,7 @@ def send_prods_to_shopify(artists, products)
             })
 
             begin
-                product.save
+                # product.save
                 products_remaining -= 1
 
                 CSV.open("uploaded-products.csv", "ab") do |csv|
