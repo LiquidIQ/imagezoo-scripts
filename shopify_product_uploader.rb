@@ -64,22 +64,22 @@ end
 def get_img_details(image_id, starting_col)
     csv_deets = CSV.read("product-details.csv")
     deets_list = Array.new
-    sizeCol = starting_col
-    widthCol = starting_col + 1
-    heightCol = starting_col + 2
+    size_col = starting_col
+    width_col = starting_col + 1
+    height_col = starting_col + 2
     csv_deets.drop(1).each do |row|
 
         if row[width_col].to_i > 0
             dpi = (starting_col == HR_COL) ? 300 : 72
-            width = row[widthCol].to_i
-            height = row[heightCol].to_i
+            width = row[width_col].to_i
+            height = row[height_col].to_i
             in_width = (width/dpi).round(1)
             in_height = (height/dpi).round(0)
-            dim_details = "#{in_width}x#{in_height}in  #{dpi}dpi  #{width}x#{height}px"
+            dim_details = "| #{in_width}x#{in_height} in | #{dpi} dpi | #{width}x#{height} px"
         else 
             dim_details = "| .eps vector files are scalable to any printable size"
         end
-        size = row[sizeCol]
+        size = row[size_col]
         details = "#{size} #{dim_details}"
         matching_id = row[0][0...7]
         deets_list << [matching_id, details]
@@ -131,7 +131,8 @@ def send_prods_to_shopify(artists, products)
             start_time = Time.now
             puts "The processing lasted #{processing_duration.to_i} seconds."
             puts "#{products_remaining} Remaining"
-            wait_time = (CYCLE - processing_duration).ceil
+            # wait_time = (CYCLE - processing_duration).ceil
+            wait_time = 0
             puts "We have to wait #{wait_time} seconds then we will resume."
             sleep wait_time if wait_time > 0
             
@@ -152,8 +153,9 @@ def send_prods_to_shopify(artists, products)
             else 
                 option1 = "Hi-Res .jpg"
             end
-            puts option1
-            
+            puts "#{row[ID_COL]} #{hr_details} | #{wr_details}"
+
+
             product = ShopifyAPI::Product.new({
                 handle: row[ID_COL], 
                 title: row[TITLE_COL],
@@ -193,7 +195,8 @@ def send_prods_to_shopify(artists, products)
                 products_remaining -= 1
 
                 CSV.open("uploaded-products.csv", "ab") do |csv|
-                    csv << [product.sku]
+                    csv << [row[ID_COL], row[TITLE_COL], "", vendor_name, "Image", tags, TRUE, "Title", option1, ""   , "", "", "", "#{row[ID_COL]}-HR" , 0, "", "", "deny", "manual", 2, "", FALSE, FALSE, hr_details, product_watermark, 1, row[TITLE_COL], false, row[ID_COL], row[TITLE_COL]]
+                    csv << [row[ID_COL], "", "", "", "", "", "", "", "Web-Res .jpg", "", "", "", "", "#{row[ID_COL]}-Web", 0, "", "", "deny", "manual", 1, "", FALSE, FALSE, wr_details, "", "", "", "", "", ""]
                 end
                 rescue ActiveResource::ClientError, Errno::ENETDOWN, ActiveResource::TimeoutError, ActiveResource::ServerError => e
                 sleep 5
